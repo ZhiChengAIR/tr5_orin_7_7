@@ -67,10 +67,10 @@ class RobotControlNode : public rclcpp::Node {
             calMF_ankle_ = std::make_shared<Ankle_Kin_Dyn>();
             StateModule_ = std::make_shared<StateEst>(0.005);
             init = false;
-	    imu_receive_flag = false;
+	        imu_receive_flag = false;
             motor_receive_flag = false;
-	    mpc_init_flag = false;
-	    force_sensor_flag = false;
+	        mpc_init_flag = false;
+	        force_sensor_flag = false;
             motorName={"L1","L2","L3", "L4", "L5",
                                               "L6","L7","R1", "R2", "R3",
                                               "R4","R5","R6", "R7",
@@ -544,7 +544,7 @@ class RobotControlNode : public rclcpp::Node {
 		feet_forces[1][i] -= offset_force_arr[1][i];
 		if (simTime > 5) {
  		    feet_forces[0][i] = -feet_forces[0][i];
-                    feet_forces[1][i] = -feet_forces[1][i];
+            feet_forces[1][i] = -feet_forces[1][i];
 		}
 		//feet_forces[0][i] = -feet_forces[0][i];
 		//feet_forces[1][i] = -feet_forces[1][i];
@@ -629,7 +629,7 @@ class RobotControlNode : public rclcpp::Node {
 		//std::cout << "jsinterp" << std::endl;
                 jsInterp_->setWzDesLPara(0, 1);
                 jsInterp_->setVxDesLPara(xv_des, 2.0); // jsInterp.setVxDesLPara(0.9,1);
-		robotState_->motionState = DataBus::Stand; // start walking
+		        robotState_->motionState = DataBus::Stand; // start walking
             } else
                 jsInterp_->setIniPos(robotState_->q(0), robotState_->q(1), robotState_->base_rpy(2));
             jsInterp_->step();
@@ -680,103 +680,72 @@ class RobotControlNode : public rclcpp::Node {
             WBC_solv_->dataBusWrite(robotState_);
 	    //std::cout << "computeDdq 2222 " << simTime << " " << startSteppingTime << std::endl;
             std::vector<double> init_pos = {
-        -0.0151027,
-         0.240149,
-         8.56923e-05,
-         0.0553408,
-        -8.70045e-05,
-        -0.296079,
-         0.0150977,
-        -0.0151029,
-        -0.240149,
-        -8.62337e-05,
-        -0.0553408,
-         8.75541e-05,
-         0.296079,
-         0.0150979,
-         0,
-         0,
-         0,
-         0,
-          0.0115265,
-         0,
- -0.245684,
-  0.568214,
- -0.322528,
--0.0115265,
--0.0112646,
-         0,
- -0.245684,
-  0.568214,
- -0.322528,
- 0.0112646
+                    -0.0151027,
+                    0.240149,
+                    8.56923e-05,
+                    0.0553408,
+                    -8.70045e-05,
+                    -0.296079,
+                    0.0150977,
+                    -0.0151029,
+                    -0.240149,
+                    -8.62337e-05,
+                    -0.0553408,
+                    8.75541e-05,
+                    0.296079,
+                    0.0150979,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.0115265,
+                    0,
+            -0.245684,
+            0.568214,
+            -0.322528,
+            -0.0115265,
+            -0.0112646,
+                    0,
+            -0.245684,
+            0.568214,
+            -0.322528,
+            0.0112646
 	    };
 	    if (simTime <= startSteppingTime) {
 		init_pos = {
-        -0.0151027,
-         0.240149,
-         8.56923e-05,
-         0.0553408,
-        -8.70045e-05,
-        -0.296079,
-         0.0150977,
-        -0.0151029,
-        -0.240149,
-        -8.62337e-05,
-        -0.0553408,
-         8.75541e-05,
-         0.296079,
-         0.0150979,
-         0,
-         0,
-         0,
-         0,
-	  0.0115265,
-         0,
- -0.245684,
-  0.568214,
- -0.322528,
--0.0115265,
--0.0112646,
-         0,
- -0.245684,
-  0.568214,
- -0.322528,
- 0.0112646
-
-
-
-
-	 //0.0115265,
-         //0,
- //-0.22758,
- // 0.558829,
- //-0.331247,
-//-0.0115265,
-//-0.0112646,
-//         0,
-// -0.262909,
-//  0.575829,
-// -0.312918,
-// 0.0112646
-
-
-
-        // 0.0113966,
-        // 2.5554e-11,
-        //-0.242634,
-        // 0.457076,
-        //-0.21444,
-        //-0.0113966,
-        //-0.0111377,
-        // 2.55579e-11,
-        //-0.242634,
-        // 0.457076,
-        //-0.21444,
-        // 0.0111377
+                -0.0151027,
+                0.240149,
+                8.56923e-05,
+                0.0553408,
+                -8.70045e-05,
+                -0.296079,
+                0.0150977,
+                -0.0151029,
+                -0.240149,
+                -8.62337e-05,
+                -0.0553408,
+                8.75541e-05,
+                0.296079,
+                0.0150979,
+                0,
+                0,
+                0,
+                0,
+            0.0115265,
+                0,
+        -0.245684,
+        0.568214,
+        -0.322528,
+        -0.0115265,
+        -0.0112646,
+                0,
+        -0.245684,
+        0.568214,
+        -0.322528,
+        0.0112646
     };
                 //robotState_->motors_pos_des = eigen2std(resLeg.jointPosRes + resHand.jointPosRes);
-                for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 30; i++) {
 			robotState_->motors_pos_des[i] = init_pos[i];
 		}
 		 
@@ -911,9 +880,9 @@ class RobotControlNode : public rclcpp::Node {
 
             }
 	    if (simTime < 3) {
-		for (int i = 0; i < 30; i++) {
-			robotState_->motors_tor_out[i] = 0;
-		}
+            for (int i = 0; i < 30; i++) {
+                robotState_->motors_tor_out[i] = 0;
+            }
 	    }
 	   //std::cout << "start motor torque" << std::endl;
            //for (int i = 0; i < 30; i++) {
