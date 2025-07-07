@@ -1,0 +1,880 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (tr5_demo_test) JobQueued: {'identifier': 'tr5_demo_test', 'dependencies': OrderedDict()}
+[0.000974] (tr5_demo_test) JobStarted: {'identifier': 'tr5_demo_test'}
+[0.014889] (tr5_demo_test) JobProgress: {'identifier': 'tr5_demo_test', 'progress': 'cmake'}
+[0.015883] (tr5_demo_test) JobProgress: {'identifier': 'tr5_demo_test', 'progress': 'build'}
+[0.016756] (tr5_demo_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test', '--', '-j12', '-l12'], 'cwd': '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'zh_CN.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niic/tr5-orin/ros2_ws/src/rl_pub/libtorch/lib:/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces/lib:/home/niic/tr5-orin/ros2_ws/install/topic_tools/lib:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces/lib:/home/niic/IMU/install/xsens_mti_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLCON_PREFIX_PATH', '/home/niic/tr5-orin/ros2_ws/install:/home/niic/IMU/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver:/home/niic/tr5-orin/ros2_ws/install/sine_pub:/home/niic/tr5-orin/ros2_ws/install/niic_ethercat_motors:/home/niic/tr5-orin/ros2_ws/install/init_pose:/home/niic/tr5-orin/ros2_ws/install/imu_test:/home/niic/tr5-orin/ros2_ws/install/approximate_time_sync:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces:/home/niic/tr5-orin/ros2_ws/install/topic_tools:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces:/home/niic/tr5-orin/ros2_ws/install/rl_pub:/home/niic/IMU/install/xsens_mti_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('SUDO_USER', 'niic'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces/local/lib/python3.10/dist-packages:/home/niic/tr5-orin/ros2_ws/install/topic_tools/local/lib/python3.10/dist-packages:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/niic/IMU/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver:/home/niic/tr5-orin/ros2_ws/install/sine_pub:/home/niic/tr5-orin/ros2_ws/install/niic_ethercat_motors:/home/niic/tr5-orin/ros2_ws/install/init_pose:/home/niic/tr5-orin/ros2_ws/install/imu_test:/home/niic/tr5-orin/ros2_ws/install/approximate_time_sync:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces:/home/niic/tr5-orin/ros2_ws/install/topic_tools:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces:/home/niic/tr5-orin/ros2_ws/install/rl_pub:/home/niic/IMU/install/xsens_mti_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[0.099538] (-) TimerEvent: {}
+[0.107309] (tr5_demo_test) StdoutLine: {'line': b'[ 16%] Built target sensor_publisher2\n'}
+[0.107699] (tr5_demo_test) StdoutLine: {'line': b'[ 16%] Built target sensor_publisher\n'}
+[0.109094] (tr5_demo_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_node\x1b[0m\n'}
+[0.199683] (-) TimerEvent: {}
+[0.230367] (tr5_demo_test) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/demo_node.dir/src/walk_mpc_wbc_copy.cpp.o\x1b[0m\n'}
+[0.299855] (-) TimerEvent: {}
+[0.401306] (-) TimerEvent: {}
+[0.501883] (-) TimerEvent: {}
+[0.602429] (-) TimerEvent: {}
+[0.702992] (-) TimerEvent: {}
+[0.803553] (-) TimerEvent: {}
+[0.904109] (-) TimerEvent: {}
+[1.004651] (-) TimerEvent: {}
+[1.105277] (-) TimerEvent: {}
+[1.206222] (-) TimerEvent: {}
+[1.306837] (-) TimerEvent: {}
+[1.407468] (-) TimerEvent: {}
+[1.508301] (-) TimerEvent: {}
+[1.608885] (-) TimerEvent: {}
+[1.709494] (-) TimerEvent: {}
+[1.810084] (-) TimerEvent: {}
+[1.911596] (-) TimerEvent: {}
+[2.014153] (-) TimerEvent: {}
+[2.114666] (-) TimerEvent: {}
+[2.215189] (-) TimerEvent: {}
+[2.315699] (-) TimerEvent: {}
+[2.416216] (-) TimerEvent: {}
+[2.516728] (-) TimerEvent: {}
+[2.617295] (-) TimerEvent: {}
+[2.717871] (-) TimerEvent: {}
+[2.820321] (-) TimerEvent: {}
+[2.921403] (-) TimerEvent: {}
+[3.021941] (-) TimerEvent: {}
+[3.122460] (-) TimerEvent: {}
+[3.223034] (-) TimerEvent: {}
+[3.323756] (-) TimerEvent: {}
+[3.424267] (-) TimerEvent: {}
+[3.524791] (-) TimerEvent: {}
+[3.625303] (-) TimerEvent: {}
+[3.725880] (-) TimerEvent: {}
+[3.826402] (-) TimerEvent: {}
+[3.926989] (-) TimerEvent: {}
+[4.027688] (-) TimerEvent: {}
+[4.128217] (-) TimerEvent: {}
+[4.228731] (-) TimerEvent: {}
+[4.329262] (-) TimerEvent: {}
+[4.429792] (-) TimerEvent: {}
+[4.530326] (-) TimerEvent: {}
+[4.630888] (-) TimerEvent: {}
+[4.731441] (-) TimerEvent: {}
+[4.831977] (-) TimerEvent: {}
+[4.858449] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[4.858990] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.859134] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6\x1b[m\x1b[K,\n'}
+[4.859243] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11\x1b[m\x1b[K,\n'}
+[4.859719] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11\x1b[m\x1b[K:\n'}
+[4.859872] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.859986] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.860093] (tr5_demo_test) StderrLine: {'line': b' 1671 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[4.860204] (tr5_demo_test) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.860299] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[4.860488] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.860615] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6\x1b[m\x1b[K,\n'}
+[4.860714] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11\x1b[m\x1b[K,\n'}
+[4.860824] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11\x1b[m\x1b[K:\n'}
+[4.860917] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[4.861031] (tr5_demo_test) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[4.861124] (tr5_demo_test) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.861557] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[4.861707] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.861823] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6\x1b[m\x1b[K,\n'}
+[4.861917] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11\x1b[m\x1b[K,\n'}
+[4.862035] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11\x1b[m\x1b[K:\n'}
+[4.862124] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.862236] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.862362] (tr5_demo_test) StderrLine: {'line': b' 1716 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[4.862734] (tr5_demo_test) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.862898] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[4.862998] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.863100] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6\x1b[m\x1b[K,\n'}
+[4.863193] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11\x1b[m\x1b[K,\n'}
+[4.863283] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11\x1b[m\x1b[K:\n'}
+[4.863374] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[4.863481] (tr5_demo_test) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[4.863854] (tr5_demo_test) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.932119] (-) TimerEvent: {}
+[5.032658] (-) TimerEvent: {}
+[5.133189] (-) TimerEvent: {}
+[5.234128] (-) TimerEvent: {}
+[5.335213] (-) TimerEvent: {}
+[5.435728] (-) TimerEvent: {}
+[5.536256] (-) TimerEvent: {}
+[5.636788] (-) TimerEvent: {}
+[5.737305] (-) TimerEvent: {}
+[5.837863] (-) TimerEvent: {}
+[5.938397] (-) TimerEvent: {}
+[6.038932] (-) TimerEvent: {}
+[6.139443] (-) TimerEvent: {}
+[6.239988] (-) TimerEvent: {}
+[6.340505] (-) TimerEvent: {}
+[6.441021] (-) TimerEvent: {}
+[6.541516] (-) TimerEvent: {}
+[6.642087] (-) TimerEvent: {}
+[6.742625] (-) TimerEvent: {}
+[6.843160] (-) TimerEvent: {}
+[6.943664] (-) TimerEvent: {}
+[7.044603] (-) TimerEvent: {}
+[7.145128] (-) TimerEvent: {}
+[7.245652] (-) TimerEvent: {}
+[7.346285] (-) TimerEvent: {}
+[7.446827] (-) TimerEvent: {}
+[7.547343] (-) TimerEvent: {}
+[7.647867] (-) TimerEvent: {}
+[7.748630] (-) TimerEvent: {}
+[7.849238] (-) TimerEvent: {}
+[7.951121] (-) TimerEvent: {}
+[8.051807] (-) TimerEvent: {}
+[8.152395] (-) TimerEvent: {}
+[8.252955] (-) TimerEvent: {}
+[8.353479] (-) TimerEvent: {}
+[8.454032] (-) TimerEvent: {}
+[8.502692] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp:24\x1b[m\x1b[K,\n'}
+[8.503183] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:21\x1b[m\x1b[K,\n'}
+[8.503353] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21\x1b[m\x1b[K,\n'}
+[8.503479] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41\x1b[m\x1b[K,\n'}
+[8.503666] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8\x1b[m\x1b[K,\n'}
+[8.503842] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21\x1b[m\x1b[K,\n'}
+[8.503963] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9\x1b[m\x1b[K,\n'}
+[8.504101] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10\x1b[m\x1b[K,\n'}
+[8.504266] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:15\x1b[m\x1b[K:\n'}
+[8.504381] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:\x1b[m\x1b[K At global scope:\n'}
+[8.504483] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:41:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.504588] (tr5_demo_test) StderrLine: {'line': b'   41 |     BOOST_DELETED_FUNCTION(device_close_operation& operator=(const device_close_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.504992] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.505106] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.505227] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:55:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.505337] (tr5_demo_test) StderrLine: {'line': b'   55 |     BOOST_DELETED_FUNCTION(filter_close_operation& operator=(const filter_close_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.505430] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.505538] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.505641] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:81:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.506027] (tr5_demo_test) StderrLine: {'line': b'   81 |     BOOST_DELETED_FUNCTION(device_close_all_operation& operator=(const device_close_all_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.506136] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.506240] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                                     \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.506332] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:92:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.506426] (tr5_demo_test) StderrLine: {'line': b'   92 |     BOOST_DELETED_FUNCTION(filter_close_all_operation& operator=(const filter_close_all_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.506511] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.506597] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                                     \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.506688] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:118:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.506897] (tr5_demo_test) StderrLine: {'line': b'  118 |     BOOST_DELETED_FUNCTION(member_close_operation& operator=(const member_close_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.506998] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.507090] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.507178] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:136:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.507274] (tr5_demo_test) StderrLine: {'line': b'  136 |     BOOST_DELETED_FUNCTION(reset_operation& operator=(const reset_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.507363] (tr5_demo_test) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.507450] (tr5_demo_test) StderrLine: {'line': b'      |                                                                               \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.507563] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:152:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.507663] (tr5_demo_test) StderrLine: {'line': b'  152 |     BOOST_DELETED_FUNCTION(clear_flags_operation& operator=(const clear_flags_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.507805] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.507908] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                           \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.508016] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:176:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.508112] (tr5_demo_test) StderrLine: {'line': b'  176 |     BOOST_DELETED_FUNCTION(flush_buffer_operation& operator=(const flush_buffer_operation&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.508205] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.508293] (tr5_demo_test) StderrLine: {'line': b'      |                                                                                             \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.514040] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:23\x1b[m\x1b[K,\n'}
+[8.514370] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:22\x1b[m\x1b[K,\n'}
+[8.514518] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21\x1b[m\x1b[K,\n'}
+[8.514636] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41\x1b[m\x1b[K,\n'}
+[8.514734] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8\x1b[m\x1b[K,\n'}
+[8.514856] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21\x1b[m\x1b[K,\n'}
+[8.514981] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9\x1b[m\x1b[K,\n'}
+[8.515082] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10\x1b[m\x1b[K,\n'}
+[8.515174] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:15\x1b[m\x1b[K:\n'}
+[8.515265] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/adapter/concept_adapter.hpp:121:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.515376] (tr5_demo_test) StderrLine: {'line': b'  121 |     BOOST_DELETED_FUNCTION(concept_adapter& operator=(const concept_adapter&))\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[8.515468] (tr5_demo_test) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.515554] (tr5_demo_test) StderrLine: {'line': b'      |                                                                               \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[8.554928] (-) TimerEvent: {}
+[8.655863] (-) TimerEvent: {}
+[8.756768] (-) TimerEvent: {}
+[8.857644] (-) TimerEvent: {}
+[8.958560] (-) TimerEvent: {}
+[9.059535] (-) TimerEvent: {}
+[9.162112] (-) TimerEvent: {}
+[9.263426] (-) TimerEvent: {}
+[9.364296] (-) TimerEvent: {}
+[9.465399] (-) TimerEvent: {}
+[9.533497] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.hpp:1014\x1b[m\x1b[K,\n'}
+[9.534207] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:66\x1b[m\x1b[K,\n'}
+[9.534767] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14\x1b[m\x1b[K,\n'}
+[9.534885] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:17\x1b[m\x1b[K:\n'}
+[9.535009] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.535119] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:447:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knu\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.535223] (tr5_demo_test) StderrLine: {'line': b'  447 | inline void QProblemB::applyGivens(     real_t c, real_t s, \x1b[01;35m\x1b[Kreal_t nu\x1b[m\x1b[K, real_t xold, real_t yold,\n'}
+[9.535317] (tr5_demo_test) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.536544] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblem.hpp:43\x1b[m\x1b[K,\n'}
+[9.536647] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:67\x1b[m\x1b[K,\n'}
+[9.536741] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14\x1b[m\x1b[K,\n'}
+[9.536863] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:17\x1b[m\x1b[K:\n'}
+[9.536954] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:\x1b[m\x1b[K In copy constructor \xe2\x80\x98\x1b[01m\x1b[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.537049] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:64:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtoCopy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.537158] (tr5_demo_test) StderrLine: {'line': b'   64 |                 ConstraintProduct(      \x1b[01;35m\x1b[Kconst ConstraintProduct &toCopy\x1b[m\x1b[K /**< Rhs object. */\n'}
+[9.537264] (tr5_demo_test) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.537353] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.538311] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:71:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtoCopy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.538448] (tr5_demo_test) StderrLine: {'line': b'   71 |                 ConstraintProduct &operator=(   \x1b[01;35m\x1b[Kconst ConstraintProduct &toCopy\x1b[m\x1b[K /**< Rhs object. */\n'}
+[9.538554] (tr5_demo_test) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.567903] (-) TimerEvent: {}
+[9.668503] (-) TimerEvent: {}
+[9.769096] (-) TimerEvent: {}
+[9.870191] (-) TimerEvent: {}
+[9.903189] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:11\x1b[m\x1b[K,\n'}
+[9.904197] (tr5_demo_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:21\x1b[m\x1b[K:\n'}
+[9.904397] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRampTrajectory::RampTrajectory(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.904512] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:25:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRampTrajectory::k\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.904623] (tr5_demo_test) StderrLine: {'line': b'   25 |     double \x1b[01;35m\x1b[Kk\x1b[m\x1b[K;\n'}
+[9.904722] (tr5_demo_test) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.904878] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:16:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble RampTrajectory::yDes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.904985] (tr5_demo_test) StderrLine: {'line': b'   16 |     double \x1b[01;35m\x1b[KyDes\x1b[m\x1b[K;\n'}
+[9.905077] (tr5_demo_test) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.905169] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:17:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.905296] (tr5_demo_test) StderrLine: {'line': b'   17 |     \x1b[01;35m\x1b[KRampTrajectory\x1b[m\x1b[K(double dtIn):dt{dtIn},yOld{0},k{0},yDes{0}{};\n'}
+[9.905392] (tr5_demo_test) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.970326] (-) TimerEvent: {}
+[10.070906] (-) TimerEvent: {}
+[10.171803] (-) TimerEvent: {}
+[10.272802] (-) TimerEvent: {}
+[10.373668] (-) TimerEvent: {}
+[10.474719] (-) TimerEvent: {}
+[10.575258] (-) TimerEvent: {}
+[10.676566] (-) TimerEvent: {}
+[10.777106] (-) TimerEvent: {}
+[10.878156] (-) TimerEvent: {}
+[10.978806] (-) TimerEvent: {}
+[11.079324] (-) TimerEvent: {}
+[11.179885] (-) TimerEvent: {}
+[11.281393] (-) TimerEvent: {}
+[11.381874] (-) TimerEvent: {}
+[11.483075] (-) TimerEvent: {}
+[11.583576] (-) TimerEvent: {}
+[11.684103] (-) TimerEvent: {}
+[11.785826] (-) TimerEvent: {}
+[11.886362] (-) TimerEvent: {}
+[11.986944] (-) TimerEvent: {}
+[12.087480] (-) TimerEvent: {}
+[12.188003] (-) TimerEvent: {}
+[12.288606] (-) TimerEvent: {}
+[12.389138] (-) TimerEvent: {}
+[12.489667] (-) TimerEvent: {}
+[12.590203] (-) TimerEvent: {}
+[12.690722] (-) TimerEvent: {}
+[12.791298] (-) TimerEvent: {}
+[12.891900] (-) TimerEvent: {}
+[12.963104] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:32\x1b[m\x1b[K:\n'}
+[12.963493] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic double Hip_Knee_Kin_Dyn::calHipForce(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.963647] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:157:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.963907] (tr5_demo_test) StderrLine: {'line': b'  157 |         double \x1b[01;35m\x1b[Kres\x1b[m\x1b[K = numerator / denominator;\n'}
+[12.964021] (tr5_demo_test) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.967372] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic double Hip_Knee_Kin_Dyn::calKneeForce(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.967705] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:286:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.967961] (tr5_demo_test) StderrLine: {'line': b'  286 |         double \x1b[01;35m\x1b[Kres\x1b[m\x1b[K = numerator / denominator;\n'}
+[12.968074] (tr5_demo_test) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.992008] (-) TimerEvent: {}
+[13.092519] (-) TimerEvent: {}
+[13.193358] (-) TimerEvent: {}
+[13.293869] (-) TimerEvent: {}
+[13.394367] (-) TimerEvent: {}
+[13.494870] (-) TimerEvent: {}
+[13.595397] (-) TimerEvent: {}
+[13.695959] (-) TimerEvent: {}
+[13.796467] (-) TimerEvent: {}
+[13.896981] (-) TimerEvent: {}
+[13.997467] (-) TimerEvent: {}
+[14.097980] (-) TimerEvent: {}
+[14.198499] (-) TimerEvent: {}
+[14.299029] (-) TimerEvent: {}
+[14.399550] (-) TimerEvent: {}
+[14.500082] (-) TimerEvent: {}
+[14.600583] (-) TimerEvent: {}
+[14.613161] (tr5_demo_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:33\x1b[m\x1b[K:\n'}
+[14.613854] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAnkleIKSolver::AnkleIKSolver(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.614058] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:220:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpitch0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.614191] (tr5_demo_test) StderrLine: {'line': b'  220 | inline AnkleIKSolver::AnkleIKSolver(\x1b[01;35m\x1b[Kdouble pitch0\x1b[m\x1b[K, double roll0)\n'}
+[14.614298] (tr5_demo_test) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[14.614481] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:220:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kroll0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.614594] (tr5_demo_test) StderrLine: {'line': b'  220 | inline AnkleIKSolver::AnkleIKSolver(double pitch0, \x1b[01;35m\x1b[Kdouble roll0\x1b[m\x1b[K)\n'}
+[14.614693] (tr5_demo_test) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.700723] (-) TimerEvent: {}
+[14.801266] (-) TimerEvent: {}
+[14.901826] (-) TimerEvent: {}
+[15.002330] (-) TimerEvent: {}
+[15.102867] (-) TimerEvent: {}
+[15.198825] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotControlNode::RobotControlNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.199262] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:96:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktest_knee_before\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.199409] (tr5_demo_test) StderrLine: {'line': b'   96 |                 double \x1b[01;35m\x1b[Ktest_knee_before\x1b[m\x1b[K = calMF_hip_knee_->calKneeForce(rad, 0);\n'}
+[15.199518] (tr5_demo_test) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.202945] (-) TimerEvent: {}
+[15.303599] (-) TimerEvent: {}
+[15.340638] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotControlNode::flag_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.341068] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:296:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.341204] (tr5_demo_test) StderrLine: {'line': b'  296 |         void flag_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Float64MultiArray::SharedPtr msg\x1b[m\x1b[K) {\n'}
+[15.341345] (tr5_demo_test) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[15.403645] (-) TimerEvent: {}
+[15.481780] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotControlNode::controlLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.482193] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:601:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.482343] (tr5_demo_test) StderrLine: {'line': b'  601 |             for (int i = 0 ; \x1b[01;35m\x1b[Ki < hip_alphas.size()\x1b[m\x1b[K; i++) {\n'}
+[15.482521] (tr5_demo_test) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.483610] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:609:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.484119] (tr5_demo_test) StderrLine: {'line': b'  609 |             for (int i = 0 ; \x1b[01;35m\x1b[Ki < knee_alphas.size()\x1b[m\x1b[K; i++) {\n'}
+[15.484245] (tr5_demo_test) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.484348] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:616:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.484627] (tr5_demo_test) StderrLine: {'line': b'  616 |             for (int i = 0 ; \x1b[01;35m\x1b[Ki < ankle_pitch_alphas.size()\x1b[m\x1b[K; i++) {\n'}
+[15.484779] (tr5_demo_test) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.503803] (-) TimerEvent: {}
+[15.536055] (tr5_demo_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:411:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.536450] (tr5_demo_test) StderrLine: {'line': b'  411 |             double \x1b[01;35m\x1b[Ktest\x1b[m\x1b[K = 0.1 + elapsed_time.seconds();\n'}
+[15.536610] (tr5_demo_test) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.603929] (-) TimerEvent: {}
+[15.704439] (-) TimerEvent: {}
+[15.804981] (-) TimerEvent: {}
+[15.906023] (-) TimerEvent: {}
+[16.006542] (-) TimerEvent: {}
+[16.107095] (-) TimerEvent: {}
+[16.207678] (-) TimerEvent: {}
+[16.308232] (-) TimerEvent: {}
+[16.408807] (-) TimerEvent: {}
+[16.509333] (-) TimerEvent: {}
+[16.609889] (-) TimerEvent: {}
+[16.710466] (-) TimerEvent: {}
+[16.811038] (-) TimerEvent: {}
+[16.911515] (-) TimerEvent: {}
+[17.012029] (-) TimerEvent: {}
+[17.112489] (-) TimerEvent: {}
+[17.212954] (-) TimerEvent: {}
+[17.313412] (-) TimerEvent: {}
+[17.413921] (-) TimerEvent: {}
+[17.514373] (-) TimerEvent: {}
+[17.614842] (-) TimerEvent: {}
+[17.715263] (-) TimerEvent: {}
+[17.815721] (-) TimerEvent: {}
+[17.916234] (-) TimerEvent: {}
+[18.018101] (-) TimerEvent: {}
+[18.118623] (-) TimerEvent: {}
+[18.219147] (-) TimerEvent: {}
+[18.319870] (-) TimerEvent: {}
+[18.421071] (-) TimerEvent: {}
+[18.521587] (-) TimerEvent: {}
+[18.622093] (-) TimerEvent: {}
+[18.722592] (-) TimerEvent: {}
+[18.823124] (-) TimerEvent: {}
+[18.923585] (-) TimerEvent: {}
+[19.024082] (-) TimerEvent: {}
+[19.124841] (-) TimerEvent: {}
+[19.225352] (-) TimerEvent: {}
+[19.325823] (-) TimerEvent: {}
+[19.427022] (-) TimerEvent: {}
+[19.527530] (-) TimerEvent: {}
+[19.629730] (-) TimerEvent: {}
+[19.730257] (-) TimerEvent: {}
+[19.830703] (-) TimerEvent: {}
+[19.932484] (-) TimerEvent: {}
+[20.033006] (-) TimerEvent: {}
+[20.135939] (-) TimerEvent: {}
+[20.236427] (-) TimerEvent: {}
+[20.336961] (-) TimerEvent: {}
+[20.437827] (-) TimerEvent: {}
+[20.538339] (-) TimerEvent: {}
+[20.639257] (-) TimerEvent: {}
+[20.739724] (-) TimerEvent: {}
+[20.840184] (-) TimerEvent: {}
+[20.940726] (-) TimerEvent: {}
+[21.041184] (-) TimerEvent: {}
+[21.141849] (-) TimerEvent: {}
+[21.242342] (-) TimerEvent: {}
+[21.342830] (-) TimerEvent: {}
+[21.443297] (-) TimerEvent: {}
+[21.544739] (-) TimerEvent: {}
+[21.646053] (-) TimerEvent: {}
+[21.746506] (-) TimerEvent: {}
+[21.846964] (-) TimerEvent: {}
+[21.947662] (-) TimerEvent: {}
+[22.048372] (-) TimerEvent: {}
+[22.149843] (-) TimerEvent: {}
+[22.250381] (-) TimerEvent: {}
+[22.351097] (-) TimerEvent: {}
+[22.451555] (-) TimerEvent: {}
+[22.552045] (-) TimerEvent: {}
+[22.652531] (-) TimerEvent: {}
+[22.753034] (-) TimerEvent: {}
+[22.853522] (-) TimerEvent: {}
+[22.954040] (-) TimerEvent: {}
+[23.054701] (-) TimerEvent: {}
+[23.155239] (-) TimerEvent: {}
+[23.256137] (-) TimerEvent: {}
+[23.356678] (-) TimerEvent: {}
+[23.457192] (-) TimerEvent: {}
+[23.557658] (-) TimerEvent: {}
+[23.658168] (-) TimerEvent: {}
+[23.758636] (-) TimerEvent: {}
+[23.859178] (-) TimerEvent: {}
+[23.959887] (-) TimerEvent: {}
+[24.060340] (-) TimerEvent: {}
+[24.161043] (-) TimerEvent: {}
+[24.261737] (-) TimerEvent: {}
+[24.362229] (-) TimerEvent: {}
+[24.462707] (-) TimerEvent: {}
+[24.563158] (-) TimerEvent: {}
+[24.663629] (-) TimerEvent: {}
+[24.764147] (-) TimerEvent: {}
+[24.864656] (-) TimerEvent: {}
+[24.965307] (-) TimerEvent: {}
+[25.065782] (-) TimerEvent: {}
+[25.166240] (-) TimerEvent: {}
+[25.266895] (-) TimerEvent: {}
+[25.367614] (-) TimerEvent: {}
+[25.468224] (-) TimerEvent: {}
+[25.568683] (-) TimerEvent: {}
+[25.669163] (-) TimerEvent: {}
+[25.769617] (-) TimerEvent: {}
+[25.870087] (-) TimerEvent: {}
+[25.970558] (-) TimerEvent: {}
+[26.071046] (-) TimerEvent: {}
+[26.171512] (-) TimerEvent: {}
+[26.272013] (-) TimerEvent: {}
+[26.372483] (-) TimerEvent: {}
+[26.472976] (-) TimerEvent: {}
+[26.573470] (-) TimerEvent: {}
+[26.673980] (-) TimerEvent: {}
+[26.774491] (-) TimerEvent: {}
+[26.874986] (-) TimerEvent: {}
+[26.975468] (-) TimerEvent: {}
+[27.076068] (-) TimerEvent: {}
+[27.176584] (-) TimerEvent: {}
+[27.277105] (-) TimerEvent: {}
+[27.377677] (-) TimerEvent: {}
+[27.478198] (-) TimerEvent: {}
+[27.578666] (-) TimerEvent: {}
+[27.679319] (-) TimerEvent: {}
+[27.779911] (-) TimerEvent: {}
+[27.880413] (-) TimerEvent: {}
+[27.980940] (-) TimerEvent: {}
+[28.081435] (-) TimerEvent: {}
+[28.182293] (-) TimerEvent: {}
+[28.282787] (-) TimerEvent: {}
+[28.383283] (-) TimerEvent: {}
+[28.485792] (-) TimerEvent: {}
+[28.586282] (-) TimerEvent: {}
+[28.686781] (-) TimerEvent: {}
+[28.787228] (-) TimerEvent: {}
+[28.887763] (-) TimerEvent: {}
+[28.988248] (-) TimerEvent: {}
+[29.088688] (-) TimerEvent: {}
+[29.189268] (-) TimerEvent: {}
+[29.289711] (-) TimerEvent: {}
+[29.390722] (-) TimerEvent: {}
+[29.491197] (-) TimerEvent: {}
+[29.591650] (-) TimerEvent: {}
+[29.692102] (-) TimerEvent: {}
+[29.792776] (-) TimerEvent: {}
+[29.893872] (-) TimerEvent: {}
+[29.994481] (-) TimerEvent: {}
+[30.095463] (-) TimerEvent: {}
+[30.195843] (-) TimerEvent: {}
+[30.296245] (-) TimerEvent: {}
+[30.396737] (-) TimerEvent: {}
+[30.497293] (-) TimerEvent: {}
+[30.600044] (-) TimerEvent: {}
+[30.700532] (-) TimerEvent: {}
+[30.801266] (-) TimerEvent: {}
+[30.901854] (-) TimerEvent: {}
+[31.002350] (-) TimerEvent: {}
+[31.102869] (-) TimerEvent: {}
+[31.203452] (-) TimerEvent: {}
+[31.304087] (-) TimerEvent: {}
+[31.404927] (-) TimerEvent: {}
+[31.505431] (-) TimerEvent: {}
+[31.606653] (-) TimerEvent: {}
+[31.707360] (-) TimerEvent: {}
+[31.807864] (-) TimerEvent: {}
+[31.908402] (-) TimerEvent: {}
+[32.009138] (-) TimerEvent: {}
+[32.109825] (-) TimerEvent: {}
+[32.210366] (-) TimerEvent: {}
+[32.310971] (-) TimerEvent: {}
+[32.411650] (-) TimerEvent: {}
+[32.512153] (-) TimerEvent: {}
+[32.612678] (-) TimerEvent: {}
+[32.713380] (-) TimerEvent: {}
+[32.813954] (-) TimerEvent: {}
+[32.914571] (-) TimerEvent: {}
+[33.016052] (-) TimerEvent: {}
+[33.116627] (-) TimerEvent: {}
+[33.217858] (-) TimerEvent: {}
+[33.318476] (-) TimerEvent: {}
+[33.419101] (-) TimerEvent: {}
+[33.519664] (-) TimerEvent: {}
+[33.620351] (-) TimerEvent: {}
+[33.720864] (-) TimerEvent: {}
+[33.821460] (-) TimerEvent: {}
+[33.922433] (-) TimerEvent: {}
+[34.023486] (-) TimerEvent: {}
+[34.124427] (-) TimerEvent: {}
+[34.224990] (-) TimerEvent: {}
+[34.325531] (-) TimerEvent: {}
+[34.426545] (-) TimerEvent: {}
+[34.527308] (-) TimerEvent: {}
+[34.628037] (-) TimerEvent: {}
+[34.729090] (-) TimerEvent: {}
+[34.829637] (-) TimerEvent: {}
+[34.930441] (-) TimerEvent: {}
+[35.031235] (-) TimerEvent: {}
+[35.132531] (-) TimerEvent: {}
+[35.233585] (-) TimerEvent: {}
+[35.334626] (-) TimerEvent: {}
+[35.435603] (-) TimerEvent: {}
+[35.536836] (-) TimerEvent: {}
+[35.638014] (-) TimerEvent: {}
+[35.739244] (-) TimerEvent: {}
+[35.839826] (-) TimerEvent: {}
+[35.940518] (-) TimerEvent: {}
+[36.041739] (-) TimerEvent: {}
+[36.142648] (-) TimerEvent: {}
+[36.243174] (-) TimerEvent: {}
+[36.343686] (-) TimerEvent: {}
+[36.444267] (-) TimerEvent: {}
+[36.544808] (-) TimerEvent: {}
+[36.645353] (-) TimerEvent: {}
+[36.745873] (-) TimerEvent: {}
+[36.846413] (-) TimerEvent: {}
+[36.947542] (-) TimerEvent: {}
+[37.048454] (-) TimerEvent: {}
+[37.149372] (-) TimerEvent: {}
+[37.250708] (-) TimerEvent: {}
+[37.351757] (-) TimerEvent: {}
+[37.452880] (-) TimerEvent: {}
+[37.554566] (-) TimerEvent: {}
+[37.663426] (-) TimerEvent: {}
+[37.764778] (-) TimerEvent: {}
+[37.865544] (-) TimerEvent: {}
+[37.966114] (-) TimerEvent: {}
+[38.066650] (-) TimerEvent: {}
+[38.167226] (-) TimerEvent: {}
+[38.267760] (-) TimerEvent: {}
+[38.368552] (-) TimerEvent: {}
+[38.469141] (-) TimerEvent: {}
+[38.569777] (-) TimerEvent: {}
+[38.670796] (-) TimerEvent: {}
+[38.771917] (-) TimerEvent: {}
+[38.872586] (-) TimerEvent: {}
+[38.973509] (-) TimerEvent: {}
+[39.074484] (-) TimerEvent: {}
+[39.175347] (-) TimerEvent: {}
+[39.275951] (-) TimerEvent: {}
+[39.376569] (-) TimerEvent: {}
+[39.477247] (-) TimerEvent: {}
+[39.578512] (-) TimerEvent: {}
+[39.679072] (-) TimerEvent: {}
+[39.779661] (-) TimerEvent: {}
+[39.880290] (-) TimerEvent: {}
+[39.980835] (-) TimerEvent: {}
+[40.081347] (-) TimerEvent: {}
+[40.181878] (-) TimerEvent: {}
+[40.282393] (-) TimerEvent: {}
+[40.382926] (-) TimerEvent: {}
+[40.483436] (-) TimerEvent: {}
+[40.583948] (-) TimerEvent: {}
+[40.684719] (-) TimerEvent: {}
+[40.785246] (-) TimerEvent: {}
+[40.885800] (-) TimerEvent: {}
+[40.986320] (-) TimerEvent: {}
+[41.086863] (-) TimerEvent: {}
+[41.187335] (-) TimerEvent: {}
+[41.287849] (-) TimerEvent: {}
+[41.388368] (-) TimerEvent: {}
+[41.488880] (-) TimerEvent: {}
+[41.589361] (-) TimerEvent: {}
+[41.690116] (-) TimerEvent: {}
+[41.790601] (-) TimerEvent: {}
+[41.891084] (-) TimerEvent: {}
+[41.991560] (-) TimerEvent: {}
+[42.092115] (-) TimerEvent: {}
+[42.192618] (-) TimerEvent: {}
+[42.293169] (-) TimerEvent: {}
+[42.393664] (-) TimerEvent: {}
+[42.494156] (-) TimerEvent: {}
+[42.594630] (-) TimerEvent: {}
+[42.695143] (-) TimerEvent: {}
+[42.795696] (-) TimerEvent: {}
+[42.896210] (-) TimerEvent: {}
+[42.996718] (-) TimerEvent: {}
+[43.097209] (-) TimerEvent: {}
+[43.197654] (-) TimerEvent: {}
+[43.298163] (-) TimerEvent: {}
+[43.398704] (-) TimerEvent: {}
+[43.499224] (-) TimerEvent: {}
+[43.599710] (-) TimerEvent: {}
+[43.700474] (-) TimerEvent: {}
+[43.800948] (-) TimerEvent: {}
+[43.901385] (-) TimerEvent: {}
+[44.001883] (-) TimerEvent: {}
+[44.102314] (-) TimerEvent: {}
+[44.202630] (-) TimerEvent: {}
+[44.302991] (-) TimerEvent: {}
+[44.403446] (-) TimerEvent: {}
+[44.503831] (-) TimerEvent: {}
+[44.604295] (-) TimerEvent: {}
+[44.704798] (-) TimerEvent: {}
+[44.805292] (-) TimerEvent: {}
+[44.905788] (-) TimerEvent: {}
+[45.006225] (-) TimerEvent: {}
+[45.106729] (-) TimerEvent: {}
+[45.207240] (-) TimerEvent: {}
+[45.307802] (-) TimerEvent: {}
+[45.408292] (-) TimerEvent: {}
+[45.508792] (-) TimerEvent: {}
+[45.609291] (-) TimerEvent: {}
+[45.709834] (-) TimerEvent: {}
+[45.810335] (-) TimerEvent: {}
+[45.910863] (-) TimerEvent: {}
+[46.011379] (-) TimerEvent: {}
+[46.111857] (-) TimerEvent: {}
+[46.212378] (-) TimerEvent: {}
+[46.312859] (-) TimerEvent: {}
+[46.413358] (-) TimerEvent: {}
+[46.513858] (-) TimerEvent: {}
+[46.614362] (-) TimerEvent: {}
+[46.714880] (-) TimerEvent: {}
+[46.815400] (-) TimerEvent: {}
+[46.915875] (-) TimerEvent: {}
+[47.016400] (-) TimerEvent: {}
+[47.116914] (-) TimerEvent: {}
+[47.217419] (-) TimerEvent: {}
+[47.317940] (-) TimerEvent: {}
+[47.418445] (-) TimerEvent: {}
+[47.518968] (-) TimerEvent: {}
+[47.619472] (-) TimerEvent: {}
+[47.719998] (-) TimerEvent: {}
+[47.820510] (-) TimerEvent: {}
+[47.921087] (-) TimerEvent: {}
+[48.021607] (-) TimerEvent: {}
+[48.122131] (-) TimerEvent: {}
+[48.222636] (-) TimerEvent: {}
+[48.323162] (-) TimerEvent: {}
+[48.423639] (-) TimerEvent: {}
+[48.524132] (-) TimerEvent: {}
+[48.624615] (-) TimerEvent: {}
+[48.725145] (-) TimerEvent: {}
+[48.825674] (-) TimerEvent: {}
+[48.926184] (-) TimerEvent: {}
+[49.026671] (-) TimerEvent: {}
+[49.127208] (-) TimerEvent: {}
+[49.227754] (-) TimerEvent: {}
+[49.328270] (-) TimerEvent: {}
+[49.428789] (-) TimerEvent: {}
+[49.529313] (-) TimerEvent: {}
+[49.629831] (-) TimerEvent: {}
+[49.730319] (-) TimerEvent: {}
+[49.830828] (-) TimerEvent: {}
+[49.931332] (-) TimerEvent: {}
+[50.031864] (-) TimerEvent: {}
+[50.132465] (-) TimerEvent: {}
+[50.232981] (-) TimerEvent: {}
+[50.333474] (-) TimerEvent: {}
+[50.433988] (-) TimerEvent: {}
+[50.534504] (-) TimerEvent: {}
+[50.635060] (-) TimerEvent: {}
+[50.735590] (-) TimerEvent: {}
+[50.836121] (-) TimerEvent: {}
+[50.936628] (-) TimerEvent: {}
+[51.037123] (-) TimerEvent: {}
+[51.137616] (-) TimerEvent: {}
+[51.238159] (-) TimerEvent: {}
+[51.338645] (-) TimerEvent: {}
+[51.439184] (-) TimerEvent: {}
+[51.539683] (-) TimerEvent: {}
+[51.640189] (-) TimerEvent: {}
+[51.740703] (-) TimerEvent: {}
+[51.841249] (-) TimerEvent: {}
+[51.941799] (-) TimerEvent: {}
+[52.042282] (-) TimerEvent: {}
+[52.142788] (-) TimerEvent: {}
+[52.243260] (-) TimerEvent: {}
+[52.343820] (-) TimerEvent: {}
+[52.444356] (-) TimerEvent: {}
+[52.544842] (-) TimerEvent: {}
+[52.645318] (-) TimerEvent: {}
+[52.745835] (-) TimerEvent: {}
+[52.846328] (-) TimerEvent: {}
+[52.946855] (-) TimerEvent: {}
+[53.047348] (-) TimerEvent: {}
+[53.147857] (-) TimerEvent: {}
+[53.248345] (-) TimerEvent: {}
+[53.348871] (-) TimerEvent: {}
+[53.449383] (-) TimerEvent: {}
+[53.549868] (-) TimerEvent: {}
+[53.650365] (-) TimerEvent: {}
+[53.750858] (-) TimerEvent: {}
+[53.851349] (-) TimerEvent: {}
+[53.951858] (-) TimerEvent: {}
+[54.052345] (-) TimerEvent: {}
+[54.152855] (-) TimerEvent: {}
+[54.253355] (-) TimerEvent: {}
+[54.353869] (-) TimerEvent: {}
+[54.454378] (-) TimerEvent: {}
+[54.554885] (-) TimerEvent: {}
+[54.655433] (-) TimerEvent: {}
+[54.755943] (-) TimerEvent: {}
+[54.858955] (-) TimerEvent: {}
+[54.959545] (-) TimerEvent: {}
+[55.060163] (-) TimerEvent: {}
+[55.160662] (-) TimerEvent: {}
+[55.263516] (-) TimerEvent: {}
+[55.364647] (-) TimerEvent: {}
+[55.465148] (-) TimerEvent: {}
+[55.565650] (-) TimerEvent: {}
+[55.666187] (-) TimerEvent: {}
+[55.766736] (-) TimerEvent: {}
+[55.867300] (-) TimerEvent: {}
+[55.967833] (-) TimerEvent: {}
+[56.068360] (-) TimerEvent: {}
+[56.168872] (-) TimerEvent: {}
+[56.269414] (-) TimerEvent: {}
+[56.369996] (-) TimerEvent: {}
+[56.470790] (-) TimerEvent: {}
+[56.571271] (-) TimerEvent: {}
+[56.671826] (-) TimerEvent: {}
+[56.772334] (-) TimerEvent: {}
+[56.872865] (-) TimerEvent: {}
+[56.973406] (-) TimerEvent: {}
+[57.073992] (-) TimerEvent: {}
+[57.174489] (-) TimerEvent: {}
+[57.275008] (-) TimerEvent: {}
+[57.375514] (-) TimerEvent: {}
+[57.476032] (-) TimerEvent: {}
+[57.576531] (-) TimerEvent: {}
+[57.677041] (-) TimerEvent: {}
+[57.777546] (-) TimerEvent: {}
+[57.878063] (-) TimerEvent: {}
+[57.978591] (-) TimerEvent: {}
+[58.079110] (-) TimerEvent: {}
+[58.179602] (-) TimerEvent: {}
+[58.280145] (-) TimerEvent: {}
+[58.380693] (-) TimerEvent: {}
+[58.481239] (-) TimerEvent: {}
+[58.581781] (-) TimerEvent: {}
+[58.682303] (-) TimerEvent: {}
+[58.782826] (-) TimerEvent: {}
+[58.883323] (-) TimerEvent: {}
+[58.983842] (-) TimerEvent: {}
+[59.084341] (-) TimerEvent: {}
+[59.184840] (-) TimerEvent: {}
+[59.285330] (-) TimerEvent: {}
+[59.385847] (-) TimerEvent: {}
+[59.486353] (-) TimerEvent: {}
+[59.586862] (-) TimerEvent: {}
+[59.687399] (-) TimerEvent: {}
+[59.787861] (-) TimerEvent: {}
+[59.888388] (-) TimerEvent: {}
+[59.988866] (-) TimerEvent: {}
+[60.089384] (-) TimerEvent: {}
+[60.189909] (-) TimerEvent: {}
+[60.290441] (-) TimerEvent: {}
+[60.391002] (-) TimerEvent: {}
+[60.491521] (-) TimerEvent: {}
+[60.592040] (-) TimerEvent: {}
+[60.692557] (-) TimerEvent: {}
+[60.793100] (-) TimerEvent: {}
+[60.893641] (-) TimerEvent: {}
+[60.994172] (-) TimerEvent: {}
+[61.094709] (-) TimerEvent: {}
+[61.195264] (-) TimerEvent: {}
+[61.295776] (-) TimerEvent: {}
+[61.396212] (-) TimerEvent: {}
+[61.496683] (-) TimerEvent: {}
+[61.597190] (-) TimerEvent: {}
+[61.697695] (-) TimerEvent: {}
+[61.798217] (-) TimerEvent: {}
+[61.898735] (-) TimerEvent: {}
+[61.999260] (-) TimerEvent: {}
+[62.099980] (-) TimerEvent: {}
+[62.200504] (-) TimerEvent: {}
+[62.301085] (-) TimerEvent: {}
+[62.401612] (-) TimerEvent: {}
+[62.502104] (-) TimerEvent: {}
+[62.602571] (-) TimerEvent: {}
+[62.703082] (-) TimerEvent: {}
+[62.803588] (-) TimerEvent: {}
+[62.904113] (-) TimerEvent: {}
+[63.004653] (-) TimerEvent: {}
+[63.105166] (-) TimerEvent: {}
+[63.205672] (-) TimerEvent: {}
+[63.306221] (-) TimerEvent: {}
+[63.406810] (-) TimerEvent: {}
+[63.507330] (-) TimerEvent: {}
+[63.607853] (-) TimerEvent: {}
+[63.708391] (-) TimerEvent: {}
+[63.808944] (-) TimerEvent: {}
+[63.909453] (-) TimerEvent: {}
+[64.009975] (-) TimerEvent: {}
+[64.110486] (-) TimerEvent: {}
+[64.211066] (-) TimerEvent: {}
+[64.311571] (-) TimerEvent: {}
+[64.412126] (-) TimerEvent: {}
+[64.512664] (-) TimerEvent: {}
+[64.613293] (-) TimerEvent: {}
+[64.713844] (-) TimerEvent: {}
+[64.815152] (-) TimerEvent: {}
+[64.915673] (-) TimerEvent: {}
+[65.016262] (-) TimerEvent: {}
+[65.116849] (-) TimerEvent: {}
+[65.217372] (-) TimerEvent: {}
+[65.317874] (-) TimerEvent: {}
+[65.418406] (-) TimerEvent: {}
+[65.519075] (-) TimerEvent: {}
+[65.619595] (-) TimerEvent: {}
+[65.720127] (-) TimerEvent: {}
+[65.820625] (-) TimerEvent: {}
+[65.921138] (-) TimerEvent: {}
+[66.021662] (-) TimerEvent: {}
+[66.122241] (-) TimerEvent: {}
+[66.222795] (-) TimerEvent: {}
+[66.323300] (-) TimerEvent: {}
+[66.423870] (-) TimerEvent: {}
+[66.524403] (-) TimerEvent: {}
+[66.625007] (-) TimerEvent: {}
+[66.725545] (-) TimerEvent: {}
+[66.826067] (-) TimerEvent: {}
+[66.926582] (-) TimerEvent: {}
+[67.027165] (-) TimerEvent: {}
+[67.127684] (-) TimerEvent: {}
+[67.228218] (-) TimerEvent: {}
+[67.328730] (-) TimerEvent: {}
+[67.429312] (-) TimerEvent: {}
+[67.529848] (-) TimerEvent: {}
+[67.630350] (-) TimerEvent: {}
+[67.730871] (-) TimerEvent: {}
+[67.831373] (-) TimerEvent: {}
+[67.931871] (-) TimerEvent: {}
+[68.032387] (-) TimerEvent: {}
+[68.132918] (-) TimerEvent: {}
+[68.178773] (tr5_demo_test) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX executable demo_node\x1b[0m\n'}
+[68.233048] (-) TimerEvent: {}
+[68.333568] (-) TimerEvent: {}
+[68.434089] (-) TimerEvent: {}
+[68.534600] (-) TimerEvent: {}
+[68.635358] (-) TimerEvent: {}
+[68.735872] (-) TimerEvent: {}
+[68.827811] (tr5_demo_test) StdoutLine: {'line': b'[100%] Built target demo_node\n'}
+[68.836004] (-) TimerEvent: {}
+[68.846317] (tr5_demo_test) CommandEnded: {'returncode': 0}
+[68.847415] (tr5_demo_test) JobProgress: {'identifier': 'tr5_demo_test', 'progress': 'install'}
+[68.861024] (tr5_demo_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test'], 'cwd': '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'zh_CN.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niic/tr5-orin/ros2_ws/src/rl_pub/libtorch/lib:/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces/lib:/home/niic/tr5-orin/ros2_ws/install/topic_tools/lib:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces/lib:/home/niic/IMU/install/xsens_mti_ros2_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COLCON_PREFIX_PATH', '/home/niic/tr5-orin/ros2_ws/install:/home/niic/IMU/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver:/home/niic/tr5-orin/ros2_ws/install/sine_pub:/home/niic/tr5-orin/ros2_ws/install/niic_ethercat_motors:/home/niic/tr5-orin/ros2_ws/install/init_pose:/home/niic/tr5-orin/ros2_ws/install/imu_test:/home/niic/tr5-orin/ros2_ws/install/approximate_time_sync:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces:/home/niic/tr5-orin/ros2_ws/install/topic_tools:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces:/home/niic/tr5-orin/ros2_ws/install/rl_pub:/home/niic/IMU/install/xsens_mti_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('SUDO_USER', 'niic'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces/local/lib/python3.10/dist-packages:/home/niic/tr5-orin/ros2_ws/install/topic_tools/local/lib/python3.10/dist-packages:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/niic/IMU/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/niic/tr5-orin/ros2_ws/install/xsens_mti_ros2_driver:/home/niic/tr5-orin/ros2_ws/install/sine_pub:/home/niic/tr5-orin/ros2_ws/install/niic_ethercat_motors:/home/niic/tr5-orin/ros2_ws/install/init_pose:/home/niic/tr5-orin/ros2_ws/install/imu_test:/home/niic/tr5-orin/ros2_ws/install/approximate_time_sync:/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces:/home/niic/tr5-orin/ros2_ws/install/topic_tools:/home/niic/tr5-orin/ros2_ws/install/topic_tools_interfaces:/home/niic/tr5-orin/ros2_ws/install/rl_pub:/home/niic/IMU/install/xsens_mti_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[68.872798] (tr5_demo_test) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[68.873494] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/lib/tr5_demo_test/sensor_publisher\n'}
+[68.873680] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/lib/tr5_demo_test/sensor_publisher2\n'}
+[68.873814] (tr5_demo_test) StdoutLine: {'line': b'-- Installing: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/lib/tr5_demo_test/demo_node\n'}
+[68.889075] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/ament_index/resource_index/package_run_dependencies/tr5_demo_test\n'}
+[68.889504] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/ament_index/resource_index/parent_prefix_path/tr5_demo_test\n'}
+[68.889841] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/environment/ament_prefix_path.sh\n'}
+[68.890021] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/environment/ament_prefix_path.dsv\n'}
+[68.890368] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/environment/path.sh\n'}
+[68.890484] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/environment/path.dsv\n'}
+[68.890586] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/local_setup.bash\n'}
+[68.890683] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/local_setup.sh\n'}
+[68.890803] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/local_setup.zsh\n'}
+[68.890901] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/local_setup.dsv\n'}
+[68.890994] (tr5_demo_test) StdoutLine: {'line': b'-- Installing: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.dsv\n'}
+[68.891084] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/ament_index/resource_index/packages/tr5_demo_test\n'}
+[68.891189] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/cmake/tr5_demo_testConfig.cmake\n'}
+[68.891280] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/cmake/tr5_demo_testConfig-version.cmake\n'}
+[68.891371] (tr5_demo_test) StdoutLine: {'line': b'-- Up-to-date: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.xml\n'}
+[68.893278] (tr5_demo_test) CommandEnded: {'returncode': 0}
+[68.918010] (tr5_demo_test) JobEnded: {'identifier': 'tr5_demo_test', 'rc': 0}
+[68.919242] (-) EventReactorShutdown: {}

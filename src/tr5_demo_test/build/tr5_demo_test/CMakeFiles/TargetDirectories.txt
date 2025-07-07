@@ -1,0 +1,12 @@
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/uninstall.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/tr5_demo_test_uninstall.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/demo_node.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/sensor_publisher.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/sensor_publisher2.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/test.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/edit_cache.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/rebuild_cache.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/list_install_components.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/install.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/install/local.dir
+/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test/CMakeFiles/install/strip.dir

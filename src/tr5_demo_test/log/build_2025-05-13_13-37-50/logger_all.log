@@ -1,0 +1,82 @@
+[0.185s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.185s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb2f38ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb2f386a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb2f386a0>>)
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.485s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'tr5_demo_test'
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.604s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/niic/tr5-orin/ros2_ws/install
+[0.606s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/niic/IMU/install
+[0.608s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'cmake_target' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'tr5_demo_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'tr5_demo_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test', 'merge_install': False, 'path': '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test', 'symlink_install': False, 'test_result_base': None}
+[0.740s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.745s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.745s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test' with build type 'ament_cmake'
+[0.745s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test'
+[0.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/niic/tr5-orin/tr5_test/src/tr5_demo_test -DCMAKE_INSTALL_PREFIX=/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test
+[6.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/niic/tr5-orin/tr5_test/src/tr5_demo_test -DCMAKE_INSTALL_PREFIX=/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test
+[6.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12
+[237.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12
+[237.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tr5_demo_test)
+[237.826s] Level 1:colcon.colcon_core.environment:checking '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test' for CMake module files
+[237.826s] Level 1:colcon.colcon_core.environment:checking '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test' for CMake config files
+[237.827s] Level 1:colcon.colcon_core.environment:checking '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/bin'
+[237.827s] Level 1:colcon.colcon_core.environment:checking '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/lib/pkgconfig/tr5_demo_test.pc'
+[237.827s] Level 1:colcon.colcon_core.environment:checking '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/lib/python3.10/site-packages'
+[237.828s] Level 1:colcon.colcon_core.environment:checking '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/bin'
+[237.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.ps1'
+[237.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.dsv'
+[237.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.sh'
+[237.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.bash'
+[237.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/tr5_demo_test/package.zsh'
+[237.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test/share/colcon-core/packages/tr5_demo_test)
+[237.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[237.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[237.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[237.844s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[237.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[237.857s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[237.857s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[237.881s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[237.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/local_setup.ps1'
+[237.883s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/_local_setup_util_ps1.py'
+[237.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/setup.ps1'
+[237.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/local_setup.sh'
+[237.888s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/_local_setup_util_sh.py'
+[237.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/setup.sh'
+[237.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/local_setup.bash'
+[237.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/setup.bash'
+[237.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/local_setup.zsh'
+[237.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/setup.zsh'

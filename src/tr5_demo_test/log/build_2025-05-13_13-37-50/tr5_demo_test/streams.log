@@ -1,0 +1,1128 @@
+[0.029s] Invoking command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/niic/tr5-orin/tr5_test/src/tr5_demo_test -DCMAKE_INSTALL_PREFIX=/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.248s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.411s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.721s] -- Detecting CXX compiler ABI info - done
+[0.741s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.741s] -- Detecting CXX compile features
+[0.742s] -- Detecting CXX compile features - done
+[0.748s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.163s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.352s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.462s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.471s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.488s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.621s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.626s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.819s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.906s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.016s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Looking for pthread.h
+[2.218s] -- Looking for pthread.h - found
+[2.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.399s] -- Found Threads: TRUE  
+[2.482s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[2.499s] -- Found required Ceres dependency: glog
+[2.500s] -- Found required Ceres dependency: gflags
+[2.501s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.507s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[2.547s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.683s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.707s] -- Found tr5_interfaces: 0.0.0 (/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces/share/tr5_interfaces/cmake)
+[2.734s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.770s] -- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+[2.791s] -- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[2.857s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.888s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.182s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.184s] -- Configured cppcheck include dirs: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/quill;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/glfw;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/jsoncpp;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test
+[4.184s] -- Configured cppcheck exclude dirs and/or files: 
+[4.313s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.562s] -- Added test 'lint_cmake' to check CMake code style
+[4.764s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.973s] -- Added test 'uncrustify' to check C / C++ code style
+[5.973s] -- Configured uncrustify additional arguments: 
+[6.100s] -- Added test 'xmllint' to check XML markup files
+[6.106s] -- Configuring done
+[6.172s] -- Generating done
+[6.186s] -- Build files have been written to: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test
+[6.212s] Invoked command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/niic/tr5-orin/tr5_test/src/tr5_demo_test -DCMAKE_INSTALL_PREFIX=/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/install/tr5_demo_test
+[6.215s] Invoking command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12
+[6.353s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_publisher.dir/src/publisher.cpp.o[0m
+[6.391s] [  8%] [32mBuilding CXX object CMakeFiles/sensor_publisher2.dir/src/publisher2.cpp.o[0m
+[6.411s] [ 12%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/walk_mpc_wbc_copy.cpp.o[0m
+[6.413s] [ 16%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/data_logger.cpp.o[0m
+[6.429s] [ 20%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/mock_interface.cpp.o[0m
+[6.433s] [ 24%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/pino_kin_dyn.cpp.o[0m
+[6.444s] [ 28%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/MJ_interface.cpp.o[0m
+[6.453s] [ 32%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/mpc.cpp.o[0m
+[6.466s] [ 36%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/wbc_priority.cpp.o[0m
+[6.467s] [ 40%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/LPF_fst.cpp.o[0m
+[6.467s] [ 44%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/priority_tasks.cpp.o[0m
+[6.530s] [ 48%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/ramp_trajectory.cpp.o[0m
+[6.932s] [ 52%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/useful_math.cpp.o[0m
+[7.128s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/ramp_trajectory.cpp:8[m[K:
+[7.128s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:[m[K In constructor ‘[01m[KRampTrajectory::RampTrajectory(double)[m[K’:
+[7.128s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KRampTrajectory::k[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.129s]    25 |     double [01;35m[Kk[m[K;
+[7.129s]       |            [01;35m[K^[m[K
+[7.129s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:16:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble RampTrajectory::yDes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.129s]    16 |     double [01;35m[KyDes[m[K;
+[7.129s]       |            [01;35m[K^~~~[m[K
+[7.129s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.129s]    17 |     [01;35m[KRampTrajectory[m[K(double dtIn):dt{dtIn},yOld{0},k{0},yDes{0}{};
+[7.129s]       |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.321s] [ 56%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/foot_placement.cpp.o[0m
+[11.680s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[11.680s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.681s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/priority_tasks.h:10[m[K,
+[11.681s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:8[m[K:
+[11.681s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[11.681s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.682s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.682s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.682s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[11.682s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.682s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/priority_tasks.h:10[m[K,
+[11.682s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:8[m[K:
+[11.682s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.682s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.682s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.687s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[11.687s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.687s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/priority_tasks.h:10[m[K,
+[11.687s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:8[m[K:
+[11.687s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[11.687s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.687s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.687s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.688s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[11.688s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.688s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/priority_tasks.h:10[m[K,
+[11.688s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:8[m[K:
+[11.688s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.688s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.688s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.708s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[11.708s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.709s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/foot_placement.h:11[m[K,
+[11.709s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/foot_placement.cpp:8[m[K:
+[11.709s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[11.709s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.709s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.709s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.717s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[11.717s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.717s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/foot_placement.h:11[m[K,
+[11.717s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/foot_placement.cpp:8[m[K:
+[11.717s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.717s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.717s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.724s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[11.724s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.724s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/foot_placement.h:11[m[K,
+[11.724s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/foot_placement.cpp:8[m[K:
+[11.724s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[11.724s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.725s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.725s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.725s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[11.725s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[11.725s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/foot_placement.h:11[m[K,
+[11.725s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/foot_placement.cpp:8[m[K:
+[11.725s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.725s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.725s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.124s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[12.136s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.136s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[12.136s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[12.136s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/MJ_interface.cpp:8[m[K:
+[12.137s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[12.137s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[12.137s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[12.137s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.138s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[12.138s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.138s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[12.138s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[12.138s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/MJ_interface.cpp:8[m[K:
+[12.138s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[12.138s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[12.138s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.148s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[12.153s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.153s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[12.154s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[12.154s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/MJ_interface.cpp:8[m[K:
+[12.154s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[12.154s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[12.154s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[12.154s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.154s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[12.154s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.155s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[12.155s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[12.155s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/MJ_interface.cpp:8[m[K:
+[12.155s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[12.156s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[12.156s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.978s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[12.978s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.979s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mpc.h:11[m[K,
+[12.979s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mpc.cpp:8[m[K:
+[12.979s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[12.979s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[12.979s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[12.979s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.979s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[12.980s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.980s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mpc.h:11[m[K,
+[12.980s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mpc.cpp:8[m[K:
+[12.980s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[12.980s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[12.980s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.987s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[12.988s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.988s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mpc.h:11[m[K,
+[12.988s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mpc.cpp:8[m[K:
+[12.988s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[12.988s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[12.988s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[12.988s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.988s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[12.988s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[12.989s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mpc.h:11[m[K,
+[12.989s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mpc.cpp:8[m[K:
+[12.989s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[12.989s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[12.989s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.228s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:[m[K In member function ‘[01m[Kvoid PriorityTasks::buildPriority(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[13.228s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:37:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.228s]    37 |     for (int i=0;[01;35m[Ki<taskOrder.size()[m[K;i++)
+[13.229s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[13.229s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:47:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.229s]    47 |         if ([01;35m[Ki==taskOrder.size()-1[m[K)
+[13.229s]       |             [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[13.229s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:[m[K In member function ‘[01m[Kvoid PriorityTasks::printTaskInfo()[m[K’:
+[13.229s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:58:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Task>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.229s]    58 |     for (int i=0;[01;35m[Ki<taskLib.size()[m[K;i++)
+[13.229s]       |                  [01;35m[K~^~~~~~~~~~~~~~~[m[K
+[13.229s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:[m[K In member function ‘[01m[Kvoid PriorityTasks::computeAll(const VectorXd&, const VectorXd&, const VectorXd&, const MatrixXd&, const MatrixXd&, const VectorXd&)[m[K’:
+[13.229s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:70:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Task>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.229s]    70 |     for (int i=0;[01;35m[Ki<taskLib.size()[m[K;i++)
+[13.230s]       |                  [01;35m[K~^~~~~~~~~~~~~~~[m[K
+[13.663s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/priority_tasks.cpp:66:153:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdyn_M[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.663s]    66 | void PriorityTasks::computeAll(const Eigen::VectorXd &des_delta_q,const Eigen::VectorXd &des_dq, const Eigen::VectorXd &des_ddq, [01;35m[Kconst Eigen::MatrixXd &dyn_M[m[K, const Eigen::MatrixXd &dyn_M_inv, const Eigen::VectorXd &dq) {
+[13.663s]       |                                                                                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[14.159s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[14.159s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_logger.h:22[m[K,
+[14.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/data_logger.cpp:8[m[K:
+[14.160s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.160s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.160s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.160s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.160s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[14.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_logger.h:22[m[K,
+[14.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/data_logger.cpp:8[m[K:
+[14.160s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.161s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.161s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.172s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[14.172s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.172s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_logger.h:22[m[K,
+[14.172s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/data_logger.cpp:8[m[K:
+[14.172s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.173s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.173s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.173s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.173s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[14.173s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.173s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_logger.h:22[m[K,
+[14.173s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/data_logger.cpp:8[m[K:
+[14.174s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.174s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.174s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.222s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[14.222s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.222s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[14.222s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mock_interface.h:4[m[K,
+[14.222s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mock_interface.cpp:1[m[K:
+[14.223s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.223s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.223s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.223s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.223s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[14.223s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.223s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[14.223s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mock_interface.h:4[m[K,
+[14.223s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mock_interface.cpp:1[m[K:
+[14.223s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.223s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.224s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.233s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[14.233s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.233s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[14.233s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mock_interface.h:4[m[K,
+[14.233s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mock_interface.cpp:1[m[K:
+[14.234s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.234s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.234s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.234s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.234s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[14.234s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.234s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[14.234s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mock_interface.h:4[m[K,
+[14.234s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mock_interface.cpp:1[m[K:
+[14.234s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.234s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.234s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.657s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[14.657s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.658s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/useful_math.h:10[m[K,
+[14.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/useful_math.cpp:8[m[K:
+[14.660s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.660s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.660s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.661s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.661s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[14.661s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.661s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/useful_math.h:10[m[K,
+[14.661s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/useful_math.cpp:8[m[K:
+[14.661s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.661s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.661s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.661s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[14.661s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.661s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/useful_math.h:10[m[K,
+[14.662s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/useful_math.cpp:8[m[K:
+[14.662s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.662s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.662s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.662s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.662s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[14.663s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[14.663s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/useful_math.h:10[m[K,
+[14.663s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/useful_math.cpp:8[m[K:
+[14.663s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.663s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.663s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.299s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.hpp:1014[m[K,
+[18.300s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:66[m[K,
+[18.300s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mpc.h:13[m[K,
+[18.301s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mpc.cpp:8[m[K:
+[18.301s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[18.301s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:447:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.302s]   447 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+[18.302s]       |                                                             [01;35m[K~~~~~~~^~[m[K
+[18.302s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblem.hpp:43[m[K,
+[18.303s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:67[m[K,
+[18.303s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/mpc.h:13[m[K,
+[18.304s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/mpc.cpp:8[m[K:
+[18.304s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[18.304s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.305s]    64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[18.305s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.305s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[18.310s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.311s]    71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[18.311s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.414s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.hpp:1014[m[K,
+[19.422s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:66[m[K,
+[19.422s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14[m[K,
+[19.422s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[19.422s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[19.423s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:447:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.423s]   447 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+[19.423s]       |                                                             [01;35m[K~~~~~~~^~[m[K
+[19.432s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblem.hpp:43[m[K,
+[19.432s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:67[m[K,
+[19.432s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14[m[K,
+[19.433s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[19.433s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[19.433s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.433s]    64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[19.433s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.434s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[19.434s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.434s]    71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[19.435s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[22.817s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[22.817s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[22.820s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[22.820s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.820s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[22.820s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.820s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[22.821s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[22.823s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[22.823s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[22.823s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[22.823s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[22.824s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[22.825s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[22.826s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[22.827s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[22.827s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[22.828s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[22.828s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[22.829s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[22.829s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[22.829s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[22.829s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[22.829s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[22.829s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[22.830s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[22.830s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.837s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[22.837s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.838s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[22.838s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[22.838s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[22.838s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[22.838s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[22.838s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[22.838s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[22.839s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[22.839s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[22.839s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[22.840s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[23.118s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[23.118s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[23.118s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:16[m[K,
+[23.118s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[23.118s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[23.118s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[23.118s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[23.118s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.119s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[23.119s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[23.119s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:16[m[K,
+[23.119s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[23.119s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[23.119s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[23.119s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[23.130s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[23.130s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[23.131s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:16[m[K,
+[23.131s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[23.131s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[23.131s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[23.131s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[23.132s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.132s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[23.132s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[23.132s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:16[m[K,
+[23.132s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[23.132s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[23.132s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[23.132s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[23.552s] [ 60%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/gait_scheduler.cpp.o[0m
+[24.761s] [ 64%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/GLFW_callbacks.cpp.o[0m
+[27.145s] [ 68%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/joystick_interpreter.cpp.o[0m
+[27.639s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[27.639s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[27.639s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[27.639s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[27.639s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[27.639s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[27.644s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[27.644s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[27.644s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.644s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[27.644s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[27.644s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[27.648s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[27.648s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[27.648s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[27.648s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[27.648s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[27.648s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[27.648s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[27.650s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[27.651s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[27.651s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[27.651s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[27.651s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[27.651s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[27.651s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.651s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[27.651s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[27.651s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[27.651s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[27.651s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[27.652s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[27.652s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[27.652s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[27.853s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:[m[K In member function ‘[01m[Kvoid UIctr::Keyboard(int, int, int, int)[m[K’:
+[27.854s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:151:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscancode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.854s]   151 | void UIctr::Keyboard(int key, [01;35m[Kint scancode[m[K, int act, int mods)
+[27.855s]       |                               [01;35m[K~~~~^~~~~~~~[m[K
+[27.857s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:151:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.858s]   151 | void UIctr::Keyboard(int key, int scancode, int act, [01;35m[Kint mods[m[K)
+[27.864s]       |                                                      [01;35m[K~~~~^~~~[m[K
+[27.868s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:[m[K In member function ‘[01m[Kvoid UIctr::Mouse_button(int, int, int)[m[K’:
+[27.868s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:202:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbutton[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.869s]   202 | void UIctr::Mouse_button([01;35m[Kint button[m[K, int act, int mods)
+[27.870s]       |                          [01;35m[K~~~~^~~~~~[m[K
+[27.870s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:202:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kact[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.870s]   202 | void UIctr::Mouse_button(int button, [01;35m[Kint act[m[K, int mods)
+[27.870s]       |                                      [01;35m[K~~~~^~~[m[K
+[27.871s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:202:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.871s]   202 | void UIctr::Mouse_button(int button, int act, [01;35m[Kint mods[m[K)
+[27.871s]       |                                               [01;35m[K~~~~^~~~[m[K
+[27.872s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:[m[K In member function ‘[01m[Kvoid UIctr::Scroll(double, double)[m[K’:
+[27.872s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/GLFW_callbacks.cpp:250:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxoffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[27.872s]   250 | void UIctr::Scroll([01;35m[Kdouble xoffset[m[K, double yoffset)
+[27.873s]       |                    [01;35m[K~~~~~~~^~~~~~~[m[K
+[28.758s] [ 72%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/PVT_ctrl.cpp.o[0m
+[28.893s] [ 76%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/bezier_1D.cpp.o[0m
+[29.272s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[29.272s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[29.272s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[29.272s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/gait_scheduler.h:10[m[K,
+[29.272s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/gait_scheduler.cpp:9[m[K:
+[29.273s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[29.273s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[29.273s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[29.273s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.273s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[29.273s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[29.273s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[29.273s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/gait_scheduler.h:10[m[K,
+[29.273s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/gait_scheduler.cpp:9[m[K:
+[29.273s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[29.273s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[29.273s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[29.282s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[29.282s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[29.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[29.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/gait_scheduler.h:10[m[K,
+[29.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/gait_scheduler.cpp:9[m[K:
+[29.283s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[29.283s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[29.283s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[29.283s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.283s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[29.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[29.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[29.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/gait_scheduler.h:10[m[K,
+[29.284s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/gait_scheduler.cpp:9[m[K:
+[29.284s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[29.284s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[29.284s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[29.569s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp:24[m[K,
+[29.569s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:21[m[K,
+[29.569s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[29.569s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[29.569s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[29.570s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[29.570s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[29.570s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[29.570s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[29.570s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:[m[K At global scope:
+[29.570s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:41:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.571s]    41 |     BOOST_DELETED_FUNCTION(device_close_operation& operator=(const device_close_operation&))[01;35m[K;[m[K
+[29.571s]       |                                                                                             [01;35m[K^[m[K
+[29.571s]       |                                                                                             [31m[K-[m[K
+[29.571s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:55:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.571s]    55 |     BOOST_DELETED_FUNCTION(filter_close_operation& operator=(const filter_close_operation&))[01;35m[K;[m[K
+[29.571s]       |                                                                                             [01;35m[K^[m[K
+[29.571s]       |                                                                                             [31m[K-[m[K
+[29.571s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:81:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.571s]    81 |     BOOST_DELETED_FUNCTION(device_close_all_operation& operator=(const device_close_all_operation&))[01;35m[K;[m[K
+[29.571s]       |                                                                                                     [01;35m[K^[m[K
+[29.571s]       |                                                                                                     [31m[K-[m[K
+[29.571s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:92:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.572s]    92 |     BOOST_DELETED_FUNCTION(filter_close_all_operation& operator=(const filter_close_all_operation&))[01;35m[K;[m[K
+[29.572s]       |                                                                                                     [01;35m[K^[m[K
+[29.572s]       |                                                                                                     [31m[K-[m[K
+[29.572s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:118:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.572s]   118 |     BOOST_DELETED_FUNCTION(member_close_operation& operator=(const member_close_operation&))[01;35m[K;[m[K
+[29.572s]       |                                                                                             [01;35m[K^[m[K
+[29.572s]       |                                                                                             [31m[K-[m[K
+[29.572s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:136:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.572s]   136 |     BOOST_DELETED_FUNCTION(reset_operation& operator=(const reset_operation&))[01;35m[K;[m[K
+[29.572s]       |                                                                               [01;35m[K^[m[K
+[29.572s]       |                                                                               [31m[K-[m[K
+[29.573s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:152:91:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.573s]   152 |     BOOST_DELETED_FUNCTION(clear_flags_operation& operator=(const clear_flags_operation&))[01;35m[K;[m[K
+[29.573s]       |                                                                                           [01;35m[K^[m[K
+[29.573s]       |                                                                                           [31m[K-[m[K
+[29.573s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:176:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.573s]   176 |     BOOST_DELETED_FUNCTION(flush_buffer_operation& operator=(const flush_buffer_operation&))[01;35m[K;[m[K
+[29.573s]       |                                                                                             [01;35m[K^[m[K
+[29.573s]       |                                                                                             [31m[K-[m[K
+[29.581s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:23[m[K,
+[29.581s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:22[m[K,
+[29.581s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[29.581s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[29.581s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[29.581s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[29.582s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[29.582s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[29.582s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[29.582s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/adapter/concept_adapter.hpp:121:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.582s]   121 |     BOOST_DELETED_FUNCTION(concept_adapter& operator=(const concept_adapter&))[01;35m[K;[m[K
+[29.582s]       |                                                                               [01;35m[K^[m[K
+[29.582s]       |                                                                               [31m[K-[m[K
+[30.510s] [ 80%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/csv_input_loader.cpp.o[0m
+[30.875s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:11[m[K,
+[30.879s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/joystick_interpreter.cpp:9[m[K:
+[30.879s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:[m[K In constructor ‘[01m[KRampTrajectory::RampTrajectory(double)[m[K’:
+[30.880s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KRampTrajectory::k[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[30.880s]    25 |     double [01;35m[Kk[m[K;
+[30.880s]       |            [01;35m[K^[m[K
+[30.880s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:16:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble RampTrajectory::yDes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[30.880s]    16 |     double [01;35m[KyDes[m[K;
+[30.880s]       |            [01;35m[K^~~~[m[K
+[30.880s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[30.880s]    17 |     [01;35m[KRampTrajectory[m[K(double dtIn):dt{dtIn},yOld{0},k{0},yDes{0}{};
+[30.880s]       |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[33.158s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[33.158s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[33.159s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[33.159s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:12[m[K,
+[33.159s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/joystick_interpreter.cpp:9[m[K:
+[33.159s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[33.159s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[33.159s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[33.159s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[33.160s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[33.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[33.160s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[33.161s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:12[m[K,
+[33.161s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/joystick_interpreter.cpp:9[m[K:
+[33.161s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[33.161s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[33.161s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[33.168s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[33.168s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[33.168s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[33.168s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:12[m[K,
+[33.168s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/joystick_interpreter.cpp:9[m[K:
+[33.168s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[33.168s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[33.169s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[33.169s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[33.169s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[33.169s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[33.169s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[33.169s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:12[m[K,
+[33.169s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/joystick_interpreter.cpp:9[m[K:
+[33.169s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[33.169s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[33.169s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[34.213s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[34.213s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[34.214s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[34.214s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/PVT_ctrl.h:21[m[K,
+[34.215s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/PVT_ctrl.cpp:9[m[K:
+[34.215s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[34.216s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[34.216s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[34.216s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.217s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[34.218s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[34.218s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[34.219s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/PVT_ctrl.h:21[m[K,
+[34.219s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/PVT_ctrl.cpp:9[m[K:
+[34.219s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[34.220s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[34.220s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[34.228s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[34.229s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[34.229s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[34.230s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/PVT_ctrl.h:21[m[K,
+[34.230s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/PVT_ctrl.cpp:9[m[K:
+[34.231s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[34.231s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[34.231s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[34.232s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.232s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[34.233s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[34.233s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[34.234s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/PVT_ctrl.h:21[m[K,
+[34.234s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/PVT_ctrl.cpp:9[m[K:
+[34.235s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[34.235s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[34.235s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[35.351s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp:24[m[K,
+[35.351s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:21[m[K,
+[35.351s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[35.351s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[35.352s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[35.352s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[35.352s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[35.352s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[35.352s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:20[m[K,
+[35.352s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[35.352s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:[m[K At global scope:
+[35.352s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:41:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.352s]    41 |     BOOST_DELETED_FUNCTION(device_close_operation& operator=(const device_close_operation&))[01;35m[K;[m[K
+[35.352s]       |                                                                                             [01;35m[K^[m[K
+[35.353s]       |                                                                                             [31m[K-[m[K
+[35.353s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:55:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.353s]    55 |     BOOST_DELETED_FUNCTION(filter_close_operation& operator=(const filter_close_operation&))[01;35m[K;[m[K
+[35.353s]       |                                                                                             [01;35m[K^[m[K
+[35.353s]       |                                                                                             [31m[K-[m[K
+[35.356s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:81:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.356s]    81 |     BOOST_DELETED_FUNCTION(device_close_all_operation& operator=(const device_close_all_operation&))[01;35m[K;[m[K
+[35.356s]       |                                                                                                     [01;35m[K^[m[K
+[35.356s]       |                                                                                                     [31m[K-[m[K
+[35.356s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:92:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.356s]    92 |     BOOST_DELETED_FUNCTION(filter_close_all_operation& operator=(const filter_close_all_operation&))[01;35m[K;[m[K
+[35.357s]       |                                                                                                     [01;35m[K^[m[K
+[35.357s]       |                                                                                                     [31m[K-[m[K
+[35.357s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:118:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.357s]   118 |     BOOST_DELETED_FUNCTION(member_close_operation& operator=(const member_close_operation&))[01;35m[K;[m[K
+[35.357s]       |                                                                                             [01;35m[K^[m[K
+[35.357s]       |                                                                                             [31m[K-[m[K
+[35.357s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:136:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.358s]   136 |     BOOST_DELETED_FUNCTION(reset_operation& operator=(const reset_operation&))[01;35m[K;[m[K
+[35.358s]       |                                                                               [01;35m[K^[m[K
+[35.358s]       |                                                                               [31m[K-[m[K
+[35.358s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:152:91:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.358s]   152 |     BOOST_DELETED_FUNCTION(clear_flags_operation& operator=(const clear_flags_operation&))[01;35m[K;[m[K
+[35.358s]       |                                                                                           [01;35m[K^[m[K
+[35.358s]       |                                                                                           [31m[K-[m[K
+[35.358s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:176:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.359s]   176 |     BOOST_DELETED_FUNCTION(flush_buffer_operation& operator=(const flush_buffer_operation&))[01;35m[K;[m[K
+[35.359s]       |                                                                                             [01;35m[K^[m[K
+[35.359s]       |                                                                                             [31m[K-[m[K
+[35.399s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:23[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:22[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:20[m[K,
+[35.399s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:12[m[K:
+[35.400s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/adapter/concept_adapter.hpp:121:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.400s]   121 |     BOOST_DELETED_FUNCTION(concept_adapter& operator=(const concept_adapter&))[01;35m[K;[m[K
+[35.400s]       |                                                                               [01;35m[K^[m[K
+[35.400s]       |                                                                               [31m[K-[m[K
+[35.970s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:[m[K In constructor ‘[01m[KPin_KinDyn::Pin_KinDyn(std::string)[m[K’:
+[35.970s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:70:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[35.970s]    70 |     for (int i=0;[01;35m[Ki<motorName.size()[m[K;i++){
+[35.970s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[39.622s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:[m[K In member function ‘[01m[KPin_KinDyn::IkRes Pin_KinDyn::computeInK_Hand(const Matrix3d&, const Vector3d&, const Matrix3d&, const Vector3d&)[m[K’:
+[39.622s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:461:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos_L[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[39.622s]   461 |         Eigen::Vector3d [01;35m[Kpos_L[m[K = oMi_L.translation();  // Position of left hand
+[39.630s]       |                         [01;35m[K^~~~~[m[K
+[39.630s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:462:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos_R[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[39.631s]   462 |         Eigen::Vector3d [01;35m[Kpos_R[m[K = oMi_R.translation();  // Position of right hand
+[39.631s]       |                         [01;35m[K^~~~~[m[K
+[39.631s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:468:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Keuler_L[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[39.631s]   468 |         Eigen::Vector3d [01;35m[Keuler_L[m[K = rot_L.eulerAngles(0, 1, 2);  // (roll, pitch, yaw) for left hand
+[39.636s]       |                         [01;35m[K^~~~~~~[m[K
+[39.636s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:469:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Keuler_R[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[39.636s]   469 |         Eigen::Vector3d [01;35m[Keuler_R[m[K = rot_R.eulerAngles(0, 1, 2);
+[39.636s]       |                         [01;35m[K^~~~~~~[m[K
+[39.636s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:[m[K In member function ‘[01m[Kvoid Pin_KinDyn::workspaceConstraint(Eigen::VectorXd&, Eigen::VectorXd&)[m[K’:
+[39.637s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:531:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[39.637s]   531 |     for (int i=0; [01;35m[Ki<motorName.size()[m[K;i++)
+[39.637s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[42.050s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:[m[K In member function ‘[01m[Kvoid WBC_priority::computeTau()[m[K’:
+[42.050s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/wbc_priority.cpp:357:21:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KxOpt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[42.050s]   357 |     qpOASES::real_t [01;35m[KxOpt[m[K[QP_nv];
+[42.050s]       |                     [01;35m[K^~~~[m[K
+[42.936s] [ 84%] [32m[1mLinking CXX executable sensor_publisher[0m
+[43.612s] [ 84%] Built target sensor_publisher
+[43.644s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp:24[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:21[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[43.645s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:15[m[K:
+[43.645s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:[m[K At global scope:
+[43.646s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:41:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.646s]    41 | TION(device_close_operation& operator=(const device_close_operation&))[01;35m[K;[m[K
+[43.646s]       |                                                                       [01;35m[K^[m[K
+[43.646s]       |                                                                       [31m[K-[m[K
+[43.646s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:55:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.646s]    55 | TION(filter_close_operation& operator=(const filter_close_operation&))[01;35m[K;[m[K
+[43.646s]       |                                                                       [01;35m[K^[m[K
+[43.646s]       |                                                                       [31m[K-[m[K
+[43.647s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:81:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.647s]    81 | ice_close_all_operation& operator=(const device_close_all_operation&))[01;35m[K;[m[K
+[43.647s]       |                                                                       [01;35m[K^[m[K
+[43.647s]       |                                                                       [31m[K-[m[K
+[43.647s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:92:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.647s]    92 | ter_close_all_operation& operator=(const filter_close_all_operation&))[01;35m[K;[m[K
+[43.647s]       |                                                                       [01;35m[K^[m[K
+[43.647s]       |                                                                       [31m[K-[m[K
+[43.647s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:118:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.647s]   118 | TION(member_close_operation& operator=(const member_close_operation&))[01;35m[K;[m[K
+[43.647s]       |                                                                       [01;35m[K^[m[K
+[43.647s]       |                                                                       [31m[K-[m[K
+[43.648s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:136:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.648s]   136 | T_DELETED_FUNCTION(reset_operation& operator=(const reset_operation&))[01;35m[K;[m[K
+[43.648s]       |                                                                       [01;35m[K^[m[K
+[43.648s]       |                                                                       [31m[K-[m[K
+[43.648s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:152:91:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.648s]   152 | NCTION(clear_flags_operation& operator=(const clear_flags_operation&))[01;35m[K;[m[K
+[43.648s]       |                                                                       [01;35m[K^[m[K
+[43.648s]       |                                                                       [31m[K-[m[K
+[43.648s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:176:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.648s]   176 | TION(flush_buffer_operation& operator=(const flush_buffer_operation&))[01;35m[K;[m[K
+[43.649s]       |                                                                       [01;35m[K^[m[K
+[43.649s]       |                                                                       [31m[K-[m[K
+[43.660s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:23[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:22[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[43.660s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:15[m[K:
+[43.660s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/adapter/concept_adapter.hpp:121:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.661s]   121 | T_DELETED_FUNCTION(concept_adapter& operator=(const concept_adapter&))[01;35m[K;[m[K
+[43.661s]       |                                                                       [01;35m[K^[m[K
+[43.661s]       |                                                                       [31m[K-[m[K
+[45.274s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.hpp:1014[m[K,
+[45.274s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:66[m[K,
+[45.274s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14[m[K,
+[45.275s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:17[m[K:
+[45.275s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[45.275s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:447:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[45.275s]   447 | void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+[45.275s]       |                                                      [01;35m[K~~~~~~~^~[m[K
+[45.275s] 
+[45.275s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblem.hpp:43[m[K,
+[45.275s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:67[m[K,
+[45.275s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14[m[K,
+[45.276s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:17[m[K:
+[45.276s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[45.276s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[45.276s]    64 |            ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[45.276s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[45.276s] 
+[45.276s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[45.276s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[45.276s]    71 |    ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[45.276s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[45.276s] 
+[45.951s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:11[m[K,
+[45.951s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:21[m[K:
+[45.951s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:[m[K In constructor ‘[01m[KRampTrajectory::RampTrajectory(double)[m[K’:
+[45.951s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KRampTrajectory::k[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[45.951s]    25 |     double [01;35m[Kk[m[K;
+[45.951s]       |            [01;35m[K^[m[K
+[45.952s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:16:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble RampTrajectory::yDes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[45.952s]    16 |     double [01;35m[KyDes[m[K;
+[45.952s]       |            [01;35m[K^~~~[m[K
+[45.952s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[45.952s]    17 |     [01;35m[KRampTrajectory[m[K(double dtIn):dt{dtIn},yOld{0},k{0},yDes{0}{};
+[45.952s]       |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[47.944s] [ 88%] [32m[1mLinking CXX executable sensor_publisher2[0m
+[48.728s] [ 88%] Built target sensor_publisher2
+[51.386s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:31[m[K:
+[51.386s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:[m[K In static member function ‘[01m[Kstatic double Hip_Knee_Kin_Dyn::calHipForce(double, double)[m[K’:
+[51.386s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:157:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[51.386s]   157 |         double [01;35m[Kres[m[K = numerator / denominator;
+[51.386s]       |                [01;35m[K^~~[m[K
+[51.392s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:[m[K In static member function ‘[01m[Kstatic double Hip_Knee_Kin_Dyn::calKneeForce(double, double)[m[K’:
+[51.392s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:286:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[51.392s]   286 |         double [01;35m[Kres[m[K = numerator / denominator;
+[51.392s]       |                [01;35m[K^~~[m[K
+[53.731s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:32[m[K:
+[53.731s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:[m[K In constructor ‘[01m[KAnkleIKSolver::AnkleIKSolver(double, double)[m[K’:
+[53.731s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:220:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpitch0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[53.731s]   220 | inline AnkleIKSolver::AnkleIKSolver([01;35m[Kdouble pitch0[m[K, double roll0)
+[53.731s]       |                                     [01;35m[K~~~~~~~^~~~~~[m[K
+[53.731s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:220:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kroll0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[53.731s]   220 | inline AnkleIKSolver::AnkleIKSolver(double pitch0, [01;35m[Kdouble roll0[m[K)
+[53.731s]       |                                                    [01;35m[K~~~~~~~^~~~~[m[K
+[54.503s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:[m[K In constructor ‘[01m[KRobotControlNode::RobotControlNode()[m[K’:
+[54.503s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:84:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest_knee_before[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[54.503s]    84 |                 double [01;35m[Ktest_knee_before[m[K = calMF_hip_knee_->calKneeForce(rad, 0);
+[54.503s]       |                        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[54.629s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::flag_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[54.629s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:230:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.629s]   230 |  flag_callback([01;35m[Kconst std_msgs::msg::Float64MultiArray::SharedPtr msg[m[K) {
+[54.629s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[54.629s] 
+[54.815s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::controlLoop()[m[K’:
+[54.820s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:535:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[54.828s]   535 |             for (int i = 0 ; [01;35m[Ki < hip_alphas.size()[m[K; i++) {
+[54.830s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[54.835s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:543:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[54.837s]   543 |             for (int i = 0 ; [01;35m[Ki < knee_alphas.size()[m[K; i++) {
+[54.840s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[54.842s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:550:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[54.846s]   550 |             for (int i = 0 ; [01;35m[Ki < ankle_pitch_alphas.size()[m[K; i++) {
+[54.848s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[54.900s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:345:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[54.901s]   345 |             double [01;35m[Ktest[m[K = 0.1 + elapsed_time.seconds();
+[54.901s]       |                    [01;35m[K^~~~[m[K
+[64.320s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:341[m[K,
+[64.321s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[64.321s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/useful_math.h:10[m[K,
+[64.321s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/useful_math.cpp:8[m[K:
+[64.321s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:[m[K In function ‘[01m[Kstatic void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6][m[K’:
+[64.321s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[64.322s]   327 |     [01;35m[Kinternal::triangular_matrix_vector_product[m[K
+[64.322s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.322s]   328 | [01;35m[K      <Index,Mode,[m[K
+[64.322s]       |       [01;35m[K~~~~~~~~~~~~[m[K
+[64.322s]   329 | [01;35m[K       LhsScalar, LhsBlasTraits::NeedToConjugate,[m[K
+[64.322s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.323s]   330 | [01;35m[K       RhsScalar, RhsBlasTraits::NeedToConjugate,[m[K
+[64.323s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.323s]   331 | [01;35m[K       RowMajor>[m[K
+[64.323s]       |        [01;35m[K~~~~~~~~~[m[K
+[64.323s]   332 | [01;35m[K      ::run(actualLhs.rows(),actualLhs.cols(),[m[K
+[64.323s]       |       [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.324s]   333 | [01;35m[K            actualLhs.data(),actualLhs.outerStride(),[m[K
+[64.324s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.324s]   334 | [01;35m[K            actualRhsPtr,1,[m[K
+[64.324s]       |             [01;35m[K~~~~~~~~~~~~~~~[m[K
+[64.324s]   335 | [01;35m[K            dest.data(),dest.innerStride(),[m[K
+[64.324s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.324s]   336 | [01;35m[K            actualAlpha)[m[K;
+[64.325s]       |             [01;35m[K~~~~~~~~~~~~[m[K
+[64.325s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24:[m[K [01;36m[Knote: [m[Kby argument 5 of type ‘[01m[Kconst double*[m[K’ to ‘[01m[Kstatic void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0][m[K’ declared here
+[64.325s]   105 | EIGEN_DONT_INLINE void [01;36m[Ktriangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>[m[K
+[64.325s]       |                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[70.771s] [ 92%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/Eul_W_filter.cpp.o[0m
+[70.792s] [ 96%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/StateEst.cpp.o[0m
+[72.685s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[72.685s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.685s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/StateEst.h:12[m[K,
+[72.686s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/StateEst.cpp:9[m[K:
+[72.686s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[72.686s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[72.686s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[72.686s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[72.686s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[72.686s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.686s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/StateEst.h:12[m[K,
+[72.686s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/StateEst.cpp:9[m[K:
+[72.686s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[72.686s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[72.687s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[72.692s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[72.692s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.692s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/StateEst.h:12[m[K,
+[72.692s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/StateEst.cpp:9[m[K:
+[72.693s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[72.693s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[72.693s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[72.693s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[72.693s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[72.693s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.693s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/StateEst.h:12[m[K,
+[72.693s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/StateEst.cpp:9[m[K:
+[72.693s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[72.693s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[72.693s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[72.736s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[72.736s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.737s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Eul_W_filter.h:12[m[K,
+[72.737s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/Eul_W_filter.cpp:9[m[K:
+[72.737s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[72.737s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[72.737s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[72.737s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[72.737s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[72.737s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.737s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Eul_W_filter.h:12[m[K,
+[72.737s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/Eul_W_filter.cpp:9[m[K:
+[72.737s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[72.737s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[72.738s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[72.739s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[72.739s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.739s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Eul_W_filter.h:12[m[K,
+[72.739s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/Eul_W_filter.cpp:9[m[K:
+[72.739s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[72.739s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[72.739s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[72.740s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[72.740s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[72.740s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[72.740s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Eul_W_filter.h:12[m[K,
+[72.740s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/Eul_W_filter.cpp:9[m[K:
+[72.740s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[72.740s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[72.740s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[74.400s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/Eul_W_filter.cpp:[m[K In member function ‘[01m[Kvoid Eul_W_filter::run(double*, double*)[m[K’:
+[74.400s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/Eul_W_filter.cpp:34:32:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kyaw_Old[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[74.401s]    34 |     double roll_Old, pitch_Old,[01;35m[Kyaw_Old[m[K;
+[74.401s]       |                                [01;35m[K^~~~~~~[m[K
+[215.860s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:294[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.861s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.861s] In copy constructor ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::PlainObjectBase<Derived>&) [with Derived = Eigen::Matrix<double, 3, 3>][m[K’,
+[215.861s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/Matrix.h:414:65[m[K,
+[215.862s]     inlined from ‘[01m[Kpinocchio::SE3Tpl<double, 0>::SE3Tpl(const pinocchio::SE3Tpl<double, 0>&)[m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/se3-tpl.hpp:47:10[m[K,
+[215.862s]     inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Tp = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+[215.862s]     inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+[215.862s]     inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+[215.862s]     inlined from ‘[01m[K_ForwardIterator std::__uninitialized_fill_n_a(_ForwardIterator, _Size, const _Tp&, _Allocator&) [with _ForwardIterator = pinocchio::SE3Tpl<double, 0>*; _Size = long unsigned int; _Tp = pinocchio::SE3Tpl<double, 0>; _Allocator = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:395:25[m[K,
+[215.863s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1596:33[m[K,
+[215.863s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:525:27[m[K,
+[215.863s]     inlined from ‘[01m[Kpinocchio::container::aligned_vector<T>::aligned_vector(pinocchio::container::aligned_vector<T>::size_type, const value_type&) [with T = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/container/aligned-vector.hpp:43:29[m[K,
+[215.863s]     inlined from ‘[01m[Kpinocchio::JointDataCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataCompositeTpl(const JointDataVector&, int, int) [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:27[m[K,
+[215.863s]     inlined from ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:260:46[m[K:
+[215.863s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(const Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >*)((char*)&<unnamed> + offsetof(pinocchio::value_type, pinocchio::SE3Tpl<double, 0>::<unnamed>)).Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[215.863s]   512 |       : Base(), [01;35m[Km_storage(other.m_storage)[m[K { }
+[215.863s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.863s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-generic.hpp:9[m[K,
+[215.864s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:17[m[K,
+[215.864s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.864s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.864s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.865s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:[m[K In member function ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[215.865s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:27:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[215.865s]    92 |     : joints(joint_data), [01;36m[KiMlast(joint_data.size())[m[K, pjMi(joint_data.size())
+[215.865s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.865s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:294[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.865s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.866s] In copy constructor ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::PlainObjectBase<Derived>&) [with Derived = Eigen::Matrix<double, 3, 1>][m[K’,
+[215.866s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/Matrix.h:414:65[m[K,
+[215.866s]     inlined from ‘[01m[Kpinocchio::SE3Tpl<double, 0>::SE3Tpl(const pinocchio::SE3Tpl<double, 0>&)[m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/se3-tpl.hpp:47:10[m[K,
+[215.866s]     inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Tp = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+[215.866s]     inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+[215.866s]     inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+[215.866s]     inlined from ‘[01m[K_ForwardIterator std::__uninitialized_fill_n_a(_ForwardIterator, _Size, const _Tp&, _Allocator&) [with _ForwardIterator = pinocchio::SE3Tpl<double, 0>*; _Size = long unsigned int; _Tp = pinocchio::SE3Tpl<double, 0>; _Allocator = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:395:25[m[K,
+[215.866s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1596:33[m[K,
+[215.866s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:525:27[m[K,
+[215.866s]     inlined from ‘[01m[Kpinocchio::container::aligned_vector<T>::aligned_vector(pinocchio::container::aligned_vector<T>::size_type, const value_type&) [with T = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/container/aligned-vector.hpp:43:29[m[K,
+[215.866s]     inlined from ‘[01m[Kpinocchio::JointDataCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataCompositeTpl(const JointDataVector&, int, int) [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:27[m[K,
+[215.867s]     inlined from ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:260:46[m[K:
+[215.867s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K<unnamed>.pinocchio::SE3Tpl<double, 0>::trans.Eigen::Matrix<double, 3, 1, 0, 3, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 1> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[215.867s]   512 |       : Base(), [01;35m[Km_storage(other.m_storage)[m[K { }
+[215.867s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.867s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-generic.hpp:9[m[K,
+[215.867s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:17[m[K,
+[215.867s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.867s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.867s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.867s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:[m[K In member function ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[215.867s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:27:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[215.867s]    92 |     : joints(joint_data), [01;36m[KiMlast(joint_data.size())[m[K, pjMi(joint_data.size())
+[215.867s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.868s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:294[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.868s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.868s] In copy constructor ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::PlainObjectBase<Derived>&) [with Derived = Eigen::Matrix<double, 3, 3>][m[K’,
+[215.868s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/Matrix.h:414:65[m[K,
+[215.868s]     inlined from ‘[01m[Kpinocchio::SE3Tpl<double, 0>::SE3Tpl(const pinocchio::SE3Tpl<double, 0>&)[m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/se3-tpl.hpp:47:10[m[K,
+[215.868s]     inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Tp = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+[215.868s]     inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+[215.869s]     inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+[215.869s]     inlined from ‘[01m[K_ForwardIterator std::__uninitialized_fill_n_a(_ForwardIterator, _Size, const _Tp&, _Allocator&) [with _ForwardIterator = pinocchio::SE3Tpl<double, 0>*; _Size = long unsigned int; _Tp = pinocchio::SE3Tpl<double, 0>; _Allocator = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:395:25[m[K,
+[215.869s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1596:33[m[K,
+[215.869s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:525:27[m[K,
+[215.869s]     inlined from ‘[01m[Kpinocchio::container::aligned_vector<T>::aligned_vector(pinocchio::container::aligned_vector<T>::size_type, const value_type&) [with T = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/container/aligned-vector.hpp:43:29[m[K,
+[215.869s]     inlined from ‘[01m[Kpinocchio::JointDataCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataCompositeTpl(const JointDataVector&, int, int) [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:54[m[K,
+[215.869s]     inlined from ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:260:46[m[K:
+[215.869s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(const Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >*)((char*)&<unnamed> + offsetof(pinocchio::value_type, pinocchio::SE3Tpl<double, 0>::<unnamed>)).Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[215.869s]   512 |       : Base(), [01;35m[Km_storage(other.m_storage)[m[K { }
+[215.869s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.869s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-generic.hpp:9[m[K,
+[215.869s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:17[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.870s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:[m[K In member function ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[215.870s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:54:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[215.870s]    92 |     : joints(joint_data), iMlast(joint_data.size()), [01;36m[KpjMi(joint_data.size())[m[K
+[215.870s]       |                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.870s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:294[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/utils/cast.hpp:8[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/fwd.hpp:23[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/fwd.hpp:9[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:9[m[K,
+[215.870s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.871s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.871s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.871s] In copy constructor ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::PlainObjectBase<Derived>&) [with Derived = Eigen::Matrix<double, 3, 1>][m[K’,
+[215.871s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/Matrix.h:414:65[m[K,
+[215.871s]     inlined from ‘[01m[Kpinocchio::SE3Tpl<double, 0>::SE3Tpl(const pinocchio::SE3Tpl<double, 0>&)[m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/spatial/se3-tpl.hpp:47:10[m[K,
+[215.871s]     inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Tp = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+[215.871s]     inlined from ‘[01m[Kstatic constexpr std::_Require<typename std::allocator_traits< <template-parameter-1-1> >::__construct_helper<_Tp, _Args>::type> std::allocator_traits< <template-parameter-1-1> >::_S_construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:251:17[m[K,
+[215.871s]     inlined from ‘[01m[Kstatic decltype (std::allocator_traits< <template-parameter-1-1> >::_S_construct(__a, __p, (forward<_Args>)(std::allocator_traits< <template-parameter-1-1> >::construct::__args)...)) std::allocator_traits< <template-parameter-1-1> >::construct(_Alloc&, _Tp*, _Args&& ...) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Args = {const pinocchio::SE3Tpl<double, 0>&}; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:364:16[m[K,
+[215.871s]     inlined from ‘[01m[K_ForwardIterator std::__uninitialized_fill_n_a(_ForwardIterator, _Size, const _Tp&, _Allocator&) [with _ForwardIterator = pinocchio::SE3Tpl<double, 0>*; _Size = long unsigned int; _Tp = pinocchio::SE3Tpl<double, 0>; _Allocator = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_uninitialized.h:395:25[m[K,
+[215.871s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_fill_initialize(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1596:33[m[K,
+[215.871s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = pinocchio::SE3Tpl<double, 0>; _Alloc = Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> >][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:525:27[m[K,
+[215.871s]     inlined from ‘[01m[Kpinocchio::container::aligned_vector<T>::aligned_vector(pinocchio::container::aligned_vector<T>::size_type, const value_type&) [with T = pinocchio::SE3Tpl<double, 0>][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/container/aligned-vector.hpp:43:29[m[K,
+[215.872s]     inlined from ‘[01m[Kpinocchio::JointDataCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataCompositeTpl(const JointDataVector&, int, int) [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:54[m[K,
+[215.872s]     inlined from ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’ at [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:260:46[m[K:
+[215.872s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K<unnamed>.pinocchio::SE3Tpl<double, 0>::trans.Eigen::Matrix<double, 3, 1, 0, 3, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 1> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[215.872s]   512 |       : Base(), [01;35m[Km_storage(other.m_storage)[m[K { }
+[215.872s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[215.872s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-generic.hpp:9[m[K,
+[215.872s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:17[m[K,
+[215.872s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[215.872s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[215.872s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/pino_kin_dyn.cpp:8[m[K:
+[215.872s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:[m[K In member function ‘[01m[Kpinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::JointDataDerived pinocchio::JointModelCompositeTpl<Scalar, Options, JointCollectionTpl>::createData() const [with _Scalar = double; int _Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[215.872s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/joint/joint-composite.hpp:92:54:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[215.872s]    92 |     : joints(joint_data), iMlast(joint_data.size()), [01;36m[KpjMi(joint_data.size())[m[K
+[215.873s]       |                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[236.775s] [100%] [32m[1mLinking CXX executable demo_node[0m
+[236.823s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/libpinocchio_lin_x64.a when searching for -lpinocchio_lin_x64
+[236.824s] /usr/bin/ld: cannot find -lpinocchio_lin_x64: No such file or directory
+[236.824s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/liburdfdom_model_lin_x64.a when searching for -lurdfdom_model_lin_x64
+[236.824s] /usr/bin/ld: cannot find -lurdfdom_model_lin_x64: No such file or directory
+[236.825s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/libconsole_bridge_lin_x64.a when searching for -lconsole_bridge_lin_x64
+[236.825s] /usr/bin/ld: cannot find -lconsole_bridge_lin_x64: No such file or directory
+[236.826s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/libtinyxml_lin_x64.a when searching for -ltinyxml_lin_x64
+[236.826s] /usr/bin/ld: cannot find -ltinyxml_lin_x64: No such file or directory
+[236.826s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/quill/libquill_lin_x64.a when searching for -lquill_lin_x64
+[236.827s] /usr/bin/ld: cannot find -lquill_lin_x64: No such file or directory
+[236.827s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/glfw/libglfw3_lin_x64.a when searching for -lglfw3_lin_x64
+[236.827s] /usr/bin/ld: cannot find -lglfw3_lin_x64: No such file or directory
+[236.828s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/jsoncpp/libjsoncpp_lin_x64.a when searching for -ljsoncpp_lin_x64
+[236.828s] /usr/bin/ld: cannot find -ljsoncpp_lin_x64: No such file or directory
+[236.828s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/libqpOASES_lin_x64.a when searching for -lqpOASES_lin_x64
+[236.828s] /usr/bin/ld: cannot find -lqpOASES_lin_x64: No such file or directory
+[236.829s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco/lin_x64/libmujoco.so when searching for -lmujoco
+[236.829s] /usr/bin/ld: cannot find -lmujoco: No such file or directory
+[236.829s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco/lin_x64/libmujoco.so when searching for -lmujoco
+[237.064s] collect2: error: ld returned 1 exit status
+[237.066s] gmake[2]: *** [CMakeFiles/demo_node.dir/build.make:559: demo_node] Error 1
+[237.067s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo_node.dir/all] Error 2
+[237.067s] gmake: *** [Makefile:146: all] Error 2
+[237.071s] Invoked command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12

@@ -1,0 +1,3 @@
+[ 12%] Built target sensor_publisher
+[ 16%] Built target sensor_publisher2
+[ 20%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/walk_mpc_wbc_copy.cpp.o[0m

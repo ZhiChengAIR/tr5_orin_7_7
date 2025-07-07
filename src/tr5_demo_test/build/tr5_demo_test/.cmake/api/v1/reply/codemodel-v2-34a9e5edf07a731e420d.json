@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-de2c1f84964e50aa585b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tr5_demo_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_node-Release-6f7428c469991de8fa95.json",
+					"name" : "demo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_publisher-Release-aa0bbefa43f902fc23ed.json",
+					"name" : "sensor_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_publisher2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_publisher2-Release-587b92478a9fc9ae097d.json",
+					"name" : "sensor_publisher2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tr5_demo_test_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tr5_demo_test_uninstall-Release-eac8b70b11702ff14959.json",
+					"name" : "tr5_demo_test_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-16de4a405c1f2e899bf8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test",
+		"source" : "/home/niic/tr5-orin/tr5_test/src/tr5_demo_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

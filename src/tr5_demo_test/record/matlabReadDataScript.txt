@@ -1,0 +1,18 @@
+clear variables; close all
+dataRec=load('datalog_local.log');
+simTime=dataRec(:,1:1);
+motor_pos_des=dataRec(:,2:31);
+motor_vel_des=dataRec(:,32:61);
+motor_tor_des=dataRec(:,62:91);
+motor_tor_out=dataRec(:,92:121);
+wbc_tauJointRes=dataRec(:,122:151);
+wbc_delta_q_final=dataRec(:,152:181);
+gpsVal=dataRec(:,182:184);
+base_vel=dataRec(:,185:187);
+base_pos_des=dataRec(:,188:190);
+Ufe=dataRec(:,191:202);
+Xd=dataRec(:,203:214);
+X_cur=dataRec(:,215:226);
+X_cal=dataRec(:,227:238);
+phi=dataRec(:,239:239);
+com_cur=dataRec(:,240:242);

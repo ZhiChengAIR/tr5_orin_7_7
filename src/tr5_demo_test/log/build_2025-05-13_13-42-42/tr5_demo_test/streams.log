@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target sensor_publisher2[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target sensor_publisher[0m
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target demo_node[0m
+[0.165s] [  8%] Built target sensor_publisher2
+[0.170s] [ 16%] Built target sensor_publisher
+[0.252s] [ 20%] [32m[1mLinking CXX executable demo_node[0m
+[0.314s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/libpinocchio_lin_x64.a when searching for -lpinocchio_lin_x64
+[0.314s] /usr/bin/ld: cannot find -lpinocchio_lin_x64: No such file or directory
+[0.315s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/liburdfdom_model_lin_x64.a when searching for -lurdfdom_model_lin_x64
+[0.315s] /usr/bin/ld: cannot find -lurdfdom_model_lin_x64: No such file or directory
+[0.315s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/libconsole_bridge_lin_x64.a when searching for -lconsole_bridge_lin_x64
+[0.316s] /usr/bin/ld: cannot find -lconsole_bridge_lin_x64: No such file or directory
+[0.316s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/libtinyxml_lin_x64.a when searching for -ltinyxml_lin_x64
+[0.317s] /usr/bin/ld: cannot find -ltinyxml_lin_x64: No such file or directory
+[0.317s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/quill/libquill_lin_x64.a when searching for -lquill_lin_x64
+[0.318s] /usr/bin/ld: cannot find -lquill_lin_x64: No such file or directory
+[0.318s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/glfw/libglfw3_lin_x64.a when searching for -lglfw3_lin_x64
+[0.319s] /usr/bin/ld: cannot find -lglfw3_lin_x64: No such file or directory
+[0.319s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/jsoncpp/libjsoncpp_lin_x64.a when searching for -ljsoncpp_lin_x64
+[0.319s] /usr/bin/ld: cannot find -ljsoncpp_lin_x64: No such file or directory
+[0.320s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/libqpOASES_lin_x64.a when searching for -lqpOASES_lin_x64
+[0.320s] /usr/bin/ld: cannot find -lqpOASES_lin_x64: No such file or directory
+[0.321s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco/lin_x64/libmujoco.so when searching for -lmujoco
+[0.321s] /usr/bin/ld: cannot find -lmujoco: No such file or directory
+[0.321s] /usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco/lin_x64/libmujoco.so when searching for -lmujoco
+[0.493s] collect2: error: ld returned 1 exit status
+[0.496s] gmake[2]: *** [CMakeFiles/demo_node.dir/build.make:559: demo_node] Error 1
+[0.497s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo_node.dir/all] Error 2
+[0.497s] gmake: *** [Makefile:146: all] Error 2
+[0.501s] Invoked command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12

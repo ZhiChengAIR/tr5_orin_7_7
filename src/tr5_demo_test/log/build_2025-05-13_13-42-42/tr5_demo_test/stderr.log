@@ -1,0 +1,23 @@
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/libpinocchio_lin_x64.a when searching for -lpinocchio_lin_x64
+/usr/bin/ld: cannot find -lpinocchio_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/liburdfdom_model_lin_x64.a when searching for -lurdfdom_model_lin_x64
+/usr/bin/ld: cannot find -lurdfdom_model_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/libconsole_bridge_lin_x64.a when searching for -lconsole_bridge_lin_x64
+/usr/bin/ld: cannot find -lconsole_bridge_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/urdfdom/libtinyxml_lin_x64.a when searching for -ltinyxml_lin_x64
+/usr/bin/ld: cannot find -ltinyxml_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/quill/libquill_lin_x64.a when searching for -lquill_lin_x64
+/usr/bin/ld: cannot find -lquill_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/glfw/libglfw3_lin_x64.a when searching for -lglfw3_lin_x64
+/usr/bin/ld: cannot find -lglfw3_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/jsoncpp/libjsoncpp_lin_x64.a when searching for -ljsoncpp_lin_x64
+/usr/bin/ld: cannot find -ljsoncpp_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/libqpOASES_lin_x64.a when searching for -lqpOASES_lin_x64
+/usr/bin/ld: cannot find -lqpOASES_lin_x64: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco/lin_x64/libmujoco.so when searching for -lmujoco
+/usr/bin/ld: cannot find -lmujoco: No such file or directory
+/usr/bin/ld: skipping incompatible /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco/lin_x64/libmujoco.so when searching for -lmujoco
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo_node.dir/build.make:559: demo_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

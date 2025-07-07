@@ -1,0 +1,171 @@
+[0.017s] Invoking command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12
+[0.099s] [  8%] Built target sensor_publisher
+[0.099s] [ 16%] Built target sensor_publisher2
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target demo_node[0m
+[0.229s] [ 20%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/walk_mpc_wbc_copy.cpp.o[0m
+[3.504s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:646:47:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\23[m[K’ in program
+[3.504s]   646 |             std::cout << "start" << std::endl;[01;31m[K[m[K
+[3.504s]       |                                               [01;31m[K^[m[K
+[4.698s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[4.698s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[4.698s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[4.698s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[4.698s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[4.699s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[4.699s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[4.699s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[4.699s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.699s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[4.699s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[4.699s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[4.699s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[4.699s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[4.699s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[4.699s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[4.700s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.700s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:214[m[K,
+[4.700s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[4.700s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[4.701s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[4.701s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[4.701s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[4.701s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[4.701s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[4.701s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.701s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Core:172[m[K,
+[4.701s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/Dense:1[m[K,
+[4.701s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/data_bus.h:6[m[K,
+[4.701s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/MJ_interface.h:11[m[K,
+[4.702s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:11[m[K:
+[4.702s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[4.702s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[4.702s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.070s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/direct_streambuf.hpp:24[m[K,
+[8.070s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:21[m[K,
+[8.070s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[8.070s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[8.070s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[8.070s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[8.071s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[8.071s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[8.071s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:15[m[K:
+[8.071s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:[m[K At global scope:
+[8.071s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:41:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.071s]    41 |     BOOST_DELETED_FUNCTION(device_close_operation& operator=(const device_close_operation&))[01;35m[K;[m[K
+[8.071s]       |                                                                                             [01;35m[K^[m[K
+[8.071s]       |                                                                                             [31m[K-[m[K
+[8.071s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:55:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.071s]    55 |     BOOST_DELETED_FUNCTION(filter_close_operation& operator=(const filter_close_operation&))[01;35m[K;[m[K
+[8.072s]       |                                                                                             [01;35m[K^[m[K
+[8.072s]       |                                                                                             [31m[K-[m[K
+[8.072s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:81:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.072s]    81 |     BOOST_DELETED_FUNCTION(device_close_all_operation& operator=(const device_close_all_operation&))[01;35m[K;[m[K
+[8.072s]       |                                                                                                     [01;35m[K^[m[K
+[8.072s]       |                                                                                                     [31m[K-[m[K
+[8.072s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:92:101:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.072s]    92 |     BOOST_DELETED_FUNCTION(filter_close_all_operation& operator=(const filter_close_all_operation&))[01;35m[K;[m[K
+[8.072s]       |                                                                                                     [01;35m[K^[m[K
+[8.072s]       |                                                                                                     [31m[K-[m[K
+[8.073s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:118:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.073s]   118 |     BOOST_DELETED_FUNCTION(member_close_operation& operator=(const member_close_operation&))[01;35m[K;[m[K
+[8.073s]       |                                                                                             [01;35m[K^[m[K
+[8.073s]       |                                                                                             [31m[K-[m[K
+[8.073s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:136:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.073s]   136 |     BOOST_DELETED_FUNCTION(reset_operation& operator=(const reset_operation&))[01;35m[K;[m[K
+[8.073s]       |                                                                               [01;35m[K^[m[K
+[8.073s]       |                                                                               [31m[K-[m[K
+[8.073s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:152:91:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.073s]   152 |     BOOST_DELETED_FUNCTION(clear_flags_operation& operator=(const clear_flags_operation&))[01;35m[K;[m[K
+[8.073s]       |                                                                                           [01;35m[K^[m[K
+[8.074s]       |                                                                                           [31m[K-[m[K
+[8.074s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/functional.hpp:176:93:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.074s]   176 |     BOOST_DELETED_FUNCTION(flush_buffer_operation& operator=(const flush_buffer_operation&))[01;35m[K;[m[K
+[8.074s]       |                                                                                             [01;35m[K^[m[K
+[8.074s]       |                                                                                             [31m[K-[m[K
+[8.080s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/streambuf/indirect_streambuf.hpp:23[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream_buffer.hpp:22[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/stream.hpp:21[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/archive.hpp:41[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/serialization/serializable.hpp:8[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/multibody/model.hpp:21[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio/pinocchio/parsers/urdf.hpp:9[m[K,
+[8.080s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/pino_kin_dyn.h:10[m[K,
+[8.081s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:15[m[K:
+[8.081s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost/boost/iostreams/detail/adapter/concept_adapter.hpp:121:79:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.081s]   121 |     BOOST_DELETED_FUNCTION(concept_adapter& operator=(const concept_adapter&))[01;35m[K;[m[K
+[8.081s]       |                                                                               [01;35m[K^[m[K
+[8.081s]       |                                                                               [31m[K-[m[K
+[8.968s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.hpp:1014[m[K,
+[8.969s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:66[m[K,
+[8.969s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14[m[K,
+[8.969s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:17[m[K:
+[8.969s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:[m[K In member function ‘[01m[Kvoid qpOASES::QProblemB::applyGivens(qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t, qpOASES::real_t&, qpOASES::real_t&) const[m[K’:
+[8.969s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblemB.ipp:447:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.969s]   447 | inline void QProblemB::applyGivens(     real_t c, real_t s, [01;35m[Kreal_t nu[m[K, real_t xold, real_t yold,
+[8.969s]       |                                                             [01;35m[K~~~~~~~^~[m[K
+[8.969s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/QProblem.hpp:43[m[K,
+[8.970s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES.hpp:67[m[K,
+[8.970s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/wbc_priority.h:14[m[K,
+[8.970s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:17[m[K:
+[8.970s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In copy constructor ‘[01m[KqpOASES::ConstraintProduct::ConstraintProduct(const qpOASES::ConstraintProduct&)[m[K’:
+[8.970s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:64:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.970s]    64 |                 ConstraintProduct(      [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[8.970s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.970s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:[m[K In member function ‘[01m[KqpOASES::ConstraintProduct& qpOASES::ConstraintProduct::operator=(const qpOASES::ConstraintProduct&)[m[K’:
+[8.970s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES/qpOASES/ConstraintProduct.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtoCopy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.970s]    71 |                 ConstraintProduct &operator=(   [01;35m[Kconst ConstraintProduct &toCopy[m[K /**< Rhs object. */
+[8.971s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.283s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/joystick_interpreter.h:11[m[K,
+[9.283s]                  from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:21[m[K:
+[9.284s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:[m[K In constructor ‘[01m[KRampTrajectory::RampTrajectory(double)[m[K’:
+[9.284s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:25:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KRampTrajectory::k[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.284s]    25 |     double [01;35m[Kk[m[K;
+[9.284s]       |            [01;35m[K^[m[K
+[9.284s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:16:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble RampTrajectory::yDes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.284s]    16 |     double [01;35m[KyDes[m[K;
+[9.284s]       |            [01;35m[K^~~~[m[K
+[9.284s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/ramp_trajectory.h:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[9.284s]    17 |     [01;35m[KRampTrajectory[m[K(double dtIn):dt{dtIn},yOld{0},k{0},yDes{0}{};
+[9.285s]       |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[12.334s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:32[m[K:
+[12.334s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:[m[K In static member function ‘[01m[Kstatic double Hip_Knee_Kin_Dyn::calHipForce(double, double)[m[K’:
+[12.334s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:157:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.334s]   157 |         double [01;35m[Kres[m[K = numerator / denominator;
+[12.335s]       |                [01;35m[K^~~[m[K
+[12.340s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:[m[K In static member function ‘[01m[Kstatic double Hip_Knee_Kin_Dyn::calKneeForce(double, double)[m[K’:
+[12.340s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Hip_Knee_Kin_Dyn.hpp:286:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.340s]   286 |         double [01;35m[Kres[m[K = numerator / denominator;
+[12.341s]       |                [01;35m[K^~~[m[K
+[14.127s] In file included from [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:33[m[K:
+[14.127s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:[m[K In constructor ‘[01m[KAnkleIKSolver::AnkleIKSolver(double, double)[m[K’:
+[14.127s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:220:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpitch0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.127s]   220 | inline AnkleIKSolver::AnkleIKSolver([01;35m[Kdouble pitch0[m[K, double roll0)
+[14.127s]       |                                     [01;35m[K~~~~~~~^~~~~~[m[K
+[14.128s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test/Ankle_Kin_Dyn.hpp:220:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kroll0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.128s]   220 | inline AnkleIKSolver::AnkleIKSolver(double pitch0, [01;35m[Kdouble roll0[m[K)
+[14.128s]       |                                                    [01;35m[K~~~~~~~^~~~~[m[K
+[14.745s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:[m[K In constructor ‘[01m[KRobotControlNode::RobotControlNode()[m[K’:
+[14.746s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:96:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest_knee_before[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[14.746s]    96 |                 double [01;35m[Ktest_knee_before[m[K = calMF_hip_knee_->calKneeForce(rad, 0);
+[14.746s]       |                        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[14.910s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::flag_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[14.911s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:296:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.911s]   296 |         void flag_callback([01;35m[Kconst std_msgs::msg::Float64MultiArray::SharedPtr msg[m[K) {
+[14.911s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.221s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::controlLoop()[m[K’:
+[15.221s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:601:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.221s]   601 |             for (int i = 0 ; [01;35m[Ki < hip_alphas.size()[m[K; i++) {
+[15.221s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[15.221s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:609:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.221s]   609 |             for (int i = 0 ; [01;35m[Ki < knee_alphas.size()[m[K; i++) {
+[15.222s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[15.222s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:616:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.222s]   616 |             for (int i = 0 ; [01;35m[Ki < ankle_pitch_alphas.size()[m[K; i++) {
+[15.222s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.288s] [01m[K/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/src/walk_mpc_wbc_copy.cpp:411:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.288s]   411 |             double [01;35m[Ktest[m[K = 0.1 + elapsed_time.seconds();
+[15.288s]       |                    [01;35m[K^~~~[m[K
+[34.538s] gmake[2]: *** [CMakeFiles/demo_node.dir/build.make:76: CMakeFiles/demo_node.dir/src/walk_mpc_wbc_copy.cpp.o] Error 1
+[34.538s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo_node.dir/all] Error 2
+[34.539s] gmake: *** [Makefile:146: all] Error 2
+[34.543s] Invoked command in '/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test -- -j12 -l12

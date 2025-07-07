@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tr5_interfaces: 0.0.0 (/home/niic/tr5-orin/ros2_ws/install/tr5_interfaces/share/tr5_interfaces/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+-- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/boost;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/pinocchio;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/eigen3;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/quill;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/glfw;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/jsoncpp;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/qpOASES;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/third_party/mujoco;/home/niic/tr5-orin/tr5_test/src/tr5_demo_test/include/tr5_demo_test
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/niic/tr5-orin/tr5_test/src/tr5_demo_test/build/tr5_demo_test
+[  4%] [32mBuilding CXX object CMakeFiles/sensor_publisher.dir/src/publisher.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/sensor_publisher2.dir/src/publisher2.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/walk_mpc_wbc_copy.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/data_logger.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/mock_interface.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/pino_kin_dyn.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/MJ_interface.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/mpc.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/wbc_priority.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/LPF_fst.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/priority_tasks.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/ramp_trajectory.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/useful_math.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/foot_placement.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/gait_scheduler.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/GLFW_callbacks.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/joystick_interpreter.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/PVT_ctrl.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/bezier_1D.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/csv_input_loader.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable sensor_publisher[0m
+[ 84%] Built target sensor_publisher
+[ 88%] [32m[1mLinking CXX executable sensor_publisher2[0m
+[ 88%] Built target sensor_publisher2
+[ 92%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/Eul_W_filter.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/StateEst.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_node[0m

@@ -1,0 +1,2 @@
+std_msgs/Header header
+SingleDofCommand[] multi_dof_command

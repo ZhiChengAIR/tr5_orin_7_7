@@ -1,0 +1,273 @@
+{
+   "J_ankle_l_pitch" : {
+      "PVT_LPF_Fc" : 10,  
+      "kd" : 12.0,
+      "kp" : 200.0,
+      "minPos" : -0.79,
+      "maxPos" : 0.52,
+      "maxSpeed" : 40,
+      "maxTorque" : 190
+   },
+   "J_ankle_l_roll" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 3.0,
+      "kp" : 50.0,
+      "minPos" : -0.26,
+      "maxPos" : 0.26,
+      "maxSpeed" : 63,
+      "maxTorque" : 120
+   },
+   "J_ankle_r_pitch" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 12.0,
+      "kp" : 200.0,
+      "minPos" : -0.79,
+      "maxPos" : 0.52,
+      "maxSpeed" : 40,
+      "maxTorque" : 190
+   },
+   "J_ankle_r_roll" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 3.0,
+      "kp" : 50.0,
+      "minPos" : -0.26,
+      "maxPos" : 0.26,
+      "maxSpeed" : 63,
+      "maxTorque" : 120
+   },
+   "J_knee_l_pitch" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 20.0,
+      "kp" : 750.0,
+      "minPos" : -0.26,
+      "maxPos" : 2.09,
+      "maxSpeed" : 22,
+      "maxTorque" : 400
+   },
+   "J_knee_r_pitch" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 20.0,
+      "kp" : 750.0,
+      "minPos" : -0.26,
+      "maxPos" : 2.09,
+      "maxSpeed" : 22,
+      "maxTorque" : 400
+   },
+   "J_hip_l_pitch" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : -60.0,
+      "kp" : -800.0,
+      "minPos" : -1.05,
+      "maxPos" : 0.65,
+      "maxSpeed" : 22,
+      "maxTorque" : 720
+   },
+   "J_hip_l_roll" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 30.0,
+      "kp" : 700.0,
+      "minPos" : -0.17,
+      "maxPos" : 0.52,
+      "maxSpeed" : 32,
+      "maxTorque" : 200
+   },
+   "J_hip_l_yaw" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 25.0,
+      "kp" : 500.0,
+      "minPos" : -1.05,
+      "maxPos" : 1.05,
+      "maxSpeed" : 18,
+      "maxTorque" : 156
+   },
+   "J_hip_r_pitch" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : -60.0,
+      "kp" : -800.0,
+      "minPos" : -1.05,
+      "maxPos" : 0.65,
+      "maxSpeed" : 22,
+      "maxTorque" : 720
+   },
+   "J_hip_r_roll" : {
+      "PVT_LPF_Fc" : 10,
+      "kd" : 30.0,
+      "kp" : 700.0,
+      "minPos" : -0.52,
+      "maxPos" : 0.17,
+      "maxSpeed" : 32,
+      "maxTorque" : 200
+   },
+   "J_hip_r_yaw" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 25.0,
+      "kp" : 550.0,
+      "minPos" : -1.05,
+      "maxPos" : 1.05,
+      "maxSpeed" : 18,
+      "maxTorque" : 156
+   },
+   "J_waist_roll" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 35.0,
+      "kp" : 1300.0,
+      "minPos" : -0.79,
+      "maxPos" : 0.79,
+      "maxSpeed" : 19,
+      "maxTorque" : 576
+   },
+   "J_waist_yaw" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 20.0,
+      "kp" : 500.0,
+      "minPos" : -3.14,
+      "maxPos" : 3.14,
+      "maxSpeed" : 32,
+      "maxTorque" : 200
+   },
+   "J_arm_l_01" : {
+      "PVT_LPF_Fc" : 5,
+      "kd" : 60.0,
+      "kp" : 120.0,
+      "minPos" : -3.14,
+      "maxPos" : 1.57,
+      "maxSpeed" : 15,
+      "maxTorque" : 156
+   },
+   "J_arm_l_02" : {
+      "PVT_LPF_Fc" : 5,
+      "kd" : 40.0,
+      "kp" : 100.0,
+      "minPos" : -0.17,
+      "maxPos" : 3.14,
+      "maxSpeed" : 18,
+      "maxTorque" : 156
+   },
+   "J_arm_l_03" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0,
+      "kp" : 0.0,
+      "minPos" : -3.14,
+      "maxPos" : 1.57,
+      "maxSpeed" : 45,
+      "maxTorque" : 45
+   },
+   "J_arm_l_04" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 5.0,
+      "kp" : 50.0,
+      "minPos" : -2.36,
+      "maxPos" : 0,
+      "maxSpeed" : 45,
+      "maxTorque" : 45
+   },
+   "J_arm_l_05" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : 1.57,
+      "maxPos" : 3.4,
+      "maxSpeed" : 50,
+      "maxTorque" : 7.5
+   },
+   "J_arm_l_06" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : -1.05,
+      "maxPos" : 1.05,
+      "maxSpeed" : 7,
+      "maxTorque" : 18
+   },
+   "J_arm_l_07" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : -0.79,
+      "maxPos" : 0.79,
+      "maxSpeed" : 7,
+      "maxTorque" : 14
+   },
+   "J_arm_r_01" : {
+      "PVT_LPF_Fc" : 5,
+      "kd" : 60.0,
+      "kp" : 120.0,
+      "minPos" : -3.14,
+      "maxPos" : 1.57,
+      "maxSpeed" : 18,
+      "maxTorque" : 156
+   },
+   "J_arm_r_02" : {
+      "PVT_LPF_Fc" : 5,
+      "kd" : 40.0,
+      "kp" : 120.0,
+      "minPos" : -3.14,
+      "maxPos" : 0.17,
+      "maxSpeed" : 18,
+      "maxTorque" : 156
+   },
+   "J_arm_r_03" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : -1.57,
+      "maxPos" : 3.14,
+      "maxSpeed" : 45,
+      "maxTorque" : 45
+   },
+   "J_arm_r_04" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 5.0,
+      "kp" : 50.0,
+      "minPos" : 0,
+      "maxPos" : 2.36,
+      "maxSpeed" : 45,
+      "maxTorque" : 45
+   },
+   "J_arm_r_05" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : -3.14,
+      "maxPos" : 1.57,
+      "maxSpeed" : 50,
+      "maxTorque" : 7.5
+   },
+   "J_arm_r_06" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : -1.05,
+      "maxPos" : 1.05,
+      "maxSpeed" : 7,
+      "maxTorque" : 18
+   },
+   "J_arm_r_07" : {
+      "PVT_LPF_Fc" : 20,
+      "kd" : 0.0,
+      "kp" : 0.0,
+      "minPos" : -0.79,
+      "maxPos" : 0.79,
+      "maxSpeed" : 7,
+      "maxTorque" : 14
+   },
+   "J_head_yaw" : {
+      "PVT_LPF_Fc" : 50,
+      "kd" : 6.0,
+      "kp" : 100.0,
+      "minPos" : -3.14,
+      "maxPos" : 3.14,
+      "maxSpeed" : 50,
+      "maxTorque" : 7.5
+   },
+   "J_head_pitch" : {
+      "PVT_LPF_Fc" : 50,
+      "kd" : 6.0,
+      "kp" : 100.0,
+      "minPos" : -0.79,
+      "maxPos" : 0.79,
+      "maxSpeed" : 50,
+      "maxTorque" : 7.5
+   }
+}
+

@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor_publisher2[0m
+[35m[1mConsolidate compiler generated dependencies of target sensor_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_node[0m
+[  8%] Built target sensor_publisher2
+[ 16%] Built target sensor_publisher
+[ 20%] [32m[1mLinking CXX executable demo_node[0m
